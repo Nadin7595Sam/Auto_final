@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f679c356-d833-4c58-a63e-e9b3bdad0a27" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/max/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/max/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/max/UITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AbstractInterface1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AbstractInterface1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AbstractInterface1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AbstractInterface1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AbstractInterface1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AbstractInterface1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AbstractInterface1/AbstractInterface1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AbstractInterface1/src/Lesson2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AbstractInterface1/src/Lesson2_1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AbstractInterface1/src/Lesson2_1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AbstractInterface1/src/Lesson2_1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AbstractInterface1/src/Lesson2_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/Core1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/overview-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/ru/gb/jcore/regular/Decorator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/ru/gb/jcore/regular/OtherClass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/ru/gb/jcore/regular/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/ru/gb/jcore/regular/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/ru/gb/jcore/regular/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/ru/gb/jcore/sample/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/ru/gb/jcore/sample/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/ru/gb/jcore/sample/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/ru/gb/jcore/sample/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/docs/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/src/ru/gb/jcore/regular/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/src/ru/gb/jcore/regular/OtherClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core1/src/ru/gb/jcore/sample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core2/Core2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3/.idea/Core3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3/out/production/Core3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3/out/production/Core3/.idea/Core3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3/out/production/Core3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3/out/production/Core3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3/out/production/Core3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3/out/production/Core3/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3/out/production/Core3/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3/out/production/Core3/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3/out/production/Core3/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3_1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3_1/.idea/Core3_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3_1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3_1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3_1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3_2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3_2/.idea/Core3_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3_2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3_2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3_2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core3_2/JavaCore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core4/.idea/HW3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core4/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core4/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core4/TaskPlanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core4/out/production/HW3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core4/out/production/HW3/.idea/HW3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core4/out/production/HW3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core4/out/production/HW3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core4/out/production/HW3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core4/out/production/HW3/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core4/out/production/HW3/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core4/out/production/HW3/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core4/out/production/HW3/TaskPlanner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/Core3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/Core4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW3/.idea/HW3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW3/out/production/HW3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW3/out/production/HW3/.idea/HW3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW3/out/production/HW3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW3/out/production/HW3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW3/out/production/HW3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW3/out/production/HW3/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW3/out/production/HW3/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW3/out/production/HW3/Manager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW3/out/production/HW3/StatisticsCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW3/out/production/HW3/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW3/out/production/HW3/TaskPlanner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/.idea/Core_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/entity/assigment/Assigment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/entity/department/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/entity/person/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/entity/person/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/entity/person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/entity/task/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/enums/Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/enums/Skill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/enums/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/planner/TaskPlanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/repository/AssigmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/services/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_3/HW_3/services/ManagerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/Core_5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Core/JavaCore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Drinks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW1/HW1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW1/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW1/src/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW1/src/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW_2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW_2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW_2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW_2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW_2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW_2/HW_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HW_2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project1/Project1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project1/src/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Task1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UML/UML.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UML/src/1/Task_1.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/.idea/Unit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task1/.idea/Task1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task1/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task1/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task1/out/production/Task1/.idea/Task1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task2/.idea/Task2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task2/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task2/Motorcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task2/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task2/VehicleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task2/out/production/Task2/.idea/Task2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task3.1/.idea/Task3.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task3.1/out/production/Task3/.idea/Task3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task3.2/.idea/Task3.2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task3.2/NumberChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task3.2/NumberCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task3.2/out/production/Task3.2/.idea/Task3.2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task4.1/.idea/Task4.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task4.1/Answers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task4.2/.idea/Task4.2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task4.2/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task4.2/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task4.2/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task4.2/BookServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task4.2/out/production/Task4.2/.idea/Task4.2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task5/.idea/Task5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task5/AverageComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task5/AverageComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task5/Checkstyle_Google" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task5/Checkstyle_Sun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task5/Checkstyle_Tests_Google" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task5/Checkstyle_Tests_Sun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task5/out/production/Task5/.idea/Task5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Unit/Task5/Объяснение" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/example/demo/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/example/demo/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/resources/com/example/demo/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/Samsonova.OOP_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/Samsonova.OOP_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/Samsonova.OOP_4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/Samsonova.OOP_5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/Samsonova.OOP_6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/Samsonova.OOP_7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП7/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП7/.idea/ООП7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП7/out/production/ООП7/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП7/out/production/ООП7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП7/out/production/ООП7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП7/out/production/ООП7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП7/out/production/ООП7/.idea/ООП7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП7/out/production/ООП7/ComplexCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП7/out/production/ООП7/ComplexNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП7/out/production/ООП7/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_3/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_3/.idea/ООП_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_3/out/production/ООП_3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_3/out/production/ООП_3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_3/out/production/ООП_3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_3/out/production/ООП_3/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_3/out/production/ООП_3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_3/out/production/ООП_3/.idea/ООП_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_3/out/production/ООП_3/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_3/out/production/ООП_3/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_3/out/production/ООП_3/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_3/out/production/ООП_3/StudentComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_3/out/production/ООП_3/StudentGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_4/.idea/ООП_4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_4/out/production/ООП_4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_4/out/production/ООП_4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_4/out/production/ООП_4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_4/out/production/ООП_4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_4/out/production/ООП_4/.idea/ООП_4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_4/out/production/ООП_4/EnglishTeacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_4/out/production/ООП_4/HistoryTeacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_4/out/production/ООП_4/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_4/out/production/ООП_4/MathTeacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_4/out/production/ООП_4/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_4/out/production/ООП_4/TeacherGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_5/.idea/ООП_5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_5/out/production/ООП_5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_5/out/production/ООП_5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_5/out/production/ООП_5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_5/out/production/ООП_5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_5/out/production/ООП_5/.idea/ООП_5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_5/out/production/ООП_5/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_5/out/production/ООП_5/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_5/out/production/ООП_5/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_5/out/production/ООП_5/StudyGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_5/out/production/ООП_5/StudyGroupService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_5/out/production/ООП_5/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_6/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_6/.idea/ООП_6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_7/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_7/.idea/ООП_7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_7/out/production/ООП_7/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_7/out/production/ООП_7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_7/out/production/ООП_7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_7/out/production/ООП_7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_7/out/production/ООП_7/.idea/ООП_7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_7/out/production/ООП_7/ComplexCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_7/out/production/ООП_7/ComplexNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ООП/ООП_7/out/production/ООП_7/Main.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2c9gcf9kcn51VXKp6wo3GDGbzAw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/79689/IdeaProjects/AUTO/Auto_web"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.UITest.testGBWithoutPassword">
+    <configuration name="UITest.testGBNotEmailLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="finaltest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.max.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.max" />
+      <option name="MAIN_CLASS_NAME" value="com.max.UITest" />
+      <option name="METHOD_NAME" value="testGBNotEmailLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UITest.testGBWithoutPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="finaltest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.max.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.max" />
+      <option name="MAIN_CLASS_NAME" value="com.max.UITest" />
+      <option name="METHOD_NAME" value="testGBWithoutPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UITest.testGBWithoutPassword" />
+        <item itemvalue="JUnit.UITest.testGBNotEmailLogin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f679c356-d833-4c58-a63e-e9b3bdad0a27" name="Changes" comment="" />
+      <created>1707529288712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707529288712</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,996 @@
+2488 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - QueuedThreadPool[qtp509559152]@1e5f4170{STOPPED,8<=0<=25,i=0,r=-1,t=-1077602441ms,q=0}[NO_TRY] added {org.eclipse.jetty.util.thread.ThreadPoolBudget@332a7fce,POJO}
+2511 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@c65a5ef{STOPPED}[11.0.15,sto=0] added {QueuedThreadPool[qtp509559152]@1e5f4170{STOPPED,8<=0<=25,i=0,r=-1,t=-1077602477ms,q=0}[NO_TRY],AUTO}
+2529 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@c65a5ef{STOPPED}[11.0.15,sto=0] added {AttributeContainerMap@11dee337{size=0},AUTO}
+2650 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - HTTP2CServerConnectionFactory@3574e198[h2c] added {HTTP2SessionContainer@6db66836[size=0],POJO}
+2650 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - HTTP2CServerConnectionFactory@3574e198[h2c] added {HttpConfiguration@db44aa2{32768/8192,32768/32768,https://:0,[SecureRequestCustomizer@2de366bb]},POJO}
+2657 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - HttpConnectionFactory@16fb356[HTTP/1.1] added {HttpConfiguration@db44aa2{32768/8192,32768/32768,https://:0,[SecureRequestCustomizer@2de366bb]},POJO}
+2673 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@579d011c{null, ()}{0.0.0.0:0} added {QueuedThreadPool[qtp509559152]@1e5f4170{STOPPED,8<=0<=25,i=0,r=-1,t=-1077602623ms,q=0}[NO_TRY],AUTO}
+2675 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@579d011c{null, ()}{0.0.0.0:0} added {ScheduledExecutorScheduler@687a762c{STOPPED},AUTO}
+2688 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@c65a5ef{STOPPED}[11.0.15,sto=0] added {LogarithmicArrayByteBufferPool@5ebd56e9{minBufferCapacity=0, maxBufferCapacity=65536, maxQueueLength=-1, factor=4096},POJO}
+2689 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@579d011c{null, ()}{0.0.0.0:0} added {LogarithmicArrayByteBufferPool@5ebd56e9{minBufferCapacity=0, maxBufferCapacity=65536, maxQueueLength=-1, factor=4096},UNMANAGED}
+2690 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@579d011c{null, ()}{0.0.0.0:0} added {org.eclipse.jetty.io.LogarithmicArrayByteBufferPool$LogarithmicRetainablePool@63f34b70{min=0,max=65536,buckets=17,heap=0/-1,direct=0/-1},POJO}
+2691 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@579d011c{null, ()}{0.0.0.0:0} added {org.eclipse.jetty.server.AbstractConnector$1@76318a7d,POJO}
+2692 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@579d011c{null, (http/1.1)}{0.0.0.0:0} added {HttpConnectionFactory@16fb356[HTTP/1.1],AUTO}
+2693 [main] DEBUG o.e.jetty.server.AbstractConnector - NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1)}{0.0.0.0:0} added HttpConnectionFactory@16fb356[HTTP/1.1]
+2693 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:0} added {HTTP2CServerConnectionFactory@3574e198[h2c],AUTO}
+2694 [main] DEBUG o.e.jetty.server.AbstractConnector - NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:0} added HTTP2CServerConnectionFactory@3574e198[h2c]
+2702 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:0} added {SelectorManager@NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:0},MANAGED}
+2704 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@c65a5ef{STOPPED}[11.0.15,sto=0] added {NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080},AUTO}
+2754 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@c65a5ef{STOPPED}[11.0.15,sto=0] added {o.e.j.s.ServletContextHandler@e3cee7b{/__admin,null,STOPPED},MANAGED}
+2772 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - o.e.j.s.ServletContextHandler@e3cee7b{/__admin,null,STOPPED} added {ServletHandler@c1fca1e{STOPPED},MANAGED}
+2805 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@c1fca1e{STOPPED} added {org.eclipse.jetty.servlet.DefaultServlet-41382722==org.eclipse.jetty.servlet.DefaultServlet@94bd9f06{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED},AUTO}
+2811 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@c1fca1e{STOPPED} added {[/swagger-ui/*]=>org.eclipse.jetty.servlet.DefaultServlet-41382722,POJO}
+2828 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@c1fca1e{STOPPED} added {org.eclipse.jetty.servlet.DefaultServlet-1e886a5b==org.eclipse.jetty.servlet.DefaultServlet@2468cc6b{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED},AUTO}
+2829 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@c1fca1e{STOPPED} added {[/recorder/*]=>org.eclipse.jetty.servlet.DefaultServlet-1e886a5b,POJO}
+2832 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@c1fca1e{STOPPED} added {com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-6c451c9c==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@18b0f618{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED},AUTO}
+2833 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@c1fca1e{STOPPED} added {[/]=>com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-6c451c9c,POJO}
+2836 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@c1fca1e{STOPPED} added {com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-2a7b6f69==com.github.tomakehurst.wiremock.servlet.NotMatchedServlet@555cdb7f{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED},AUTO}
+2837 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@c1fca1e{STOPPED} added {[/not-matched]=>com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-2a7b6f69,POJO}
+2846 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@c1fca1e{STOPPED} added {org.eclipse.jetty.servlets.CrossOriginFilter-29539e36==org.eclipse.jetty.servlets.CrossOriginFilter@29539e36{inst=false,async=true,src=EMBEDDED:null},AUTO}
+2849 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@c1fca1e{STOPPED} added {[/*]/[]/[]=>org.eclipse.jetty.servlets.CrossOriginFilter-29539e36,POJO}
+2863 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@c65a5ef{STOPPED}[11.0.15,sto=0] added {o.e.j.s.ServletContextHandler@ecf9fb3{/,null,STOPPED},MANAGED}
+2863 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - o.e.j.s.ServletContextHandler@ecf9fb3{/,null,STOPPED} added {ServletHandler@2d35442b{STOPPED},MANAGED}
+2864 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@2d35442b{STOPPED} added {org.eclipse.jetty.servlet.DefaultServlet-27f9e982==org.eclipse.jetty.servlet.DefaultServlet@598d1f25{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED},AUTO}
+2865 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@2d35442b{STOPPED} added {[/__files/*]=>org.eclipse.jetty.servlet.DefaultServlet-27f9e982,POJO}
+2868 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@2d35442b{STOPPED} added {com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-7cd1ac19==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@d2583371{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED},AUTO}
+2868 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@2d35442b{STOPPED} added {[/]=>com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-7cd1ac19,POJO}
+2883 [main] DEBUG o.e.jetty.http.PreEncodedHttpField - HttpField encoders loaded: [org.eclipse.jetty.http.Http1FieldPreEncoder@51c929ae, org.eclipse.jetty.http2.hpack.HpackFieldPreEncoder@3c8bdd5b]
+2931 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - o.e.j.s.ServletContextHandler@ecf9fb3{/,null,STOPPED} added {NotFoundHandler@5f577419{STOPPED},MANAGED}
+2933 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@2d35442b{STOPPED} added {com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-e041f0c==com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter@e041f0c{inst=false,async=true,src=EMBEDDED:null},AUTO}
+2934 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@2d35442b{STOPPED} added {[/__files/*]/[]/[]=>com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-e041f0c,POJO}
+2936 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@2d35442b{STOPPED} added {com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-3f3c966c==com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter@3f3c966c{inst=false,async=true,src=EMBEDDED:null},AUTO}
+2936 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@2d35442b{STOPPED} added {[/__files/*]/[]/[]=>com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-3f3c966c,POJO}
+2952 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - HandlerCollection@df5f5c0{STOPPED} added {o.e.j.s.ServletContextHandler@e3cee7b{/__admin,null,STOPPED},AUTO}
+2952 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - HandlerCollection@df5f5c0{STOPPED} added {AbstractHandler@66b72664{STOPPED},AUTO}
+2975 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[*.svgz] (group: SUFFIX_GLOB, prefix: "null", suffix: "svgz")
+2986 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@9727ded2{*.svgz},resource=true] to PathMappings[size=1]
+2988 [main] DEBUG o.e.j.s.handler.gzip.GzipHandler - GzipHandler@6ac4944a{STOPPED,min=32,inflate=-1} mime types IncludeExclude@5a772895{i=[],ip=CONTAINS,e=[image/ief, image/vnd.wap.wbmp, image/jpeg, application/bzip2, image/x-portable-graymap, application/brotli, image/bmp, image/gif, image/x-icon, image/apng, audio/midi, image/webp, video/x-msvideo, image/x-xbitmap, application/x-rar-compressed, text/event-stream, image/avif, image/x-portable-bitmap, image/x-rgb, image/x-cmu-raster, application/gzip, audio/x-wav, audio/x-pn-realaudio, audio/basic, application/compress, audio/x-aiff, video/x.ms.asx, video/x.ms.asf, image/png, video/vnd.rn-realvideo, image/x-xwindowdump, image/jpeg2000, video/x-sgi-movie, audio/mpeg, image/xcf, video/mpeg, image/x-portable-pixmap, image/tiff, image/x-portable-anymap, image/x-xpixmap, application/zip, video/quicktime, application/x-xz, video/mp4],ep=CONTAINS}
+2990 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - GzipHandler@6ac4944a{STOPPED,min=32,inflate=-1} added {o.e.j.s.ServletContextHandler@ecf9fb3{/,null,STOPPED},MANAGED}
+2991 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - HandlerCollection@df5f5c0{STOPPED} added {GzipHandler@6ac4944a{STOPPED,min=32,inflate=-1},AUTO}
+2992 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@c65a5ef{STOPPED}[11.0.15,sto=0] added {HandlerCollection@df5f5c0{STOPPED},MANAGED}
+3540 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING Server@c65a5ef{STOPPED}[11.0.15,sto=1000]
+3541 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@c65a5ef{STARTING}[11.0.15,sto=1000] added {ErrorHandler@8a62297{STOPPED},AUTO}
+3543 [main] INFO  org.eclipse.jetty.server.Server - jetty-11.0.15; built: 2023-04-11T18:37:53.775Z; git: 5bc5e562c8d05c5862505aebe5cf83a61bdbcb96; jvm 21.0.2+13-58
+3566 [main] DEBUG o.e.jetty.server.AbstractConnector - Could not configure SO_REUSEPORT to false on sun.nio.ch.ServerSocketChannelImpl[unbound]
+java.lang.UnsupportedOperationException: 'SO_REUSEPORT' not supported
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.setOption(ServerSocketChannelImpl.java:219)
+	at org.eclipse.jetty.server.ServerConnector.setSocketOption(ServerConnector.java:355)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:336)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:304)
+	at org.eclipse.jetty.server.Server.lambda$doStart$0(Server.java:402)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:398)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:93)
+	at com.github.tomakehurst.wiremock.jetty.JettyHttpServer.start(JettyHttpServer.java:196)
+	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:158)
+	at com.max.AbstractBookingTest.startServer(AbstractBookingTest.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptLifecycleMethod(TimeoutExtension.java:126)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptBeforeAllMethod(TimeoutExtension.java:68)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeBeforeAllMethods$9(ClassBasedTestDescriptor.java:384)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeBeforeAllMethods(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:196)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:78)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:136)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+3573 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} added {sun.nio.ch.ServerSocketChannelImpl[/[0:0:0:0:0:0:0:0]:8080],POJO}
+3573 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting Server@c65a5ef{STARTING}[11.0.15,sto=1000]
+3573 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING QueuedThreadPool[qtp509559152]@1e5f4170{STOPPED,8<=0<=25,i=0,r=-1,t=-1077603523ms,q=0}[NO_TRY]
+3588 [main] DEBUG o.e.j.u.t.ReservedThreadExecutor - ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}
+3589 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - QueuedThreadPool[qtp509559152]@1e5f4170{STARTING,8<=0<=25,i=0,r=-1,t=-1077603539ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}] added {ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0},AUTO}
+3590 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}
+3625 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4286ms ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}
+3631 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[#25,qtp509559152-25,5,main]
+3632 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[#26,qtp509559152-26,5,main]
+3632 [qtp509559152-25] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp509559152]@1e5f4170{STARTING,8<=2<=25,i=2,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+3633 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[#27,qtp509559152-27,5,main]
+3634 [qtp509559152-26] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp509559152]@1e5f4170{STARTING,8<=4<=25,i=4,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+3634 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[#28,qtp509559152-28,5,main]
+3635 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[#29,qtp509559152-29,5,main]
+3635 [qtp509559152-28] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp509559152]@1e5f4170{STARTING,8<=5<=25,i=5,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+3634 [qtp509559152-27] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp509559152]@1e5f4170{STARTING,8<=5<=25,i=5,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+3635 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[#30,qtp509559152-30,5,main]
+3636 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[#31,qtp509559152-31,5,main]
+3637 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[#32,qtp509559152-32,5,main]
+3636 [qtp509559152-30] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp509559152]@1e5f4170{STARTING,8<=7<=25,i=7,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+3636 [qtp509559152-29] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp509559152]@1e5f4170{STARTING,8<=7<=25,i=7,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+3637 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4298ms QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=8,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+3638 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING AttributeContainerMap@11dee337{size=0}
+3638 [qtp509559152-32] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=8,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+3638 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4299ms AttributeContainerMap@11dee337{size=0}
+3638 [qtp509559152-31] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=8,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+3638 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING HandlerCollection@df5f5c0{STOPPED}
+3638 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting HandlerCollection@df5f5c0{STARTING}
+3639 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING o.e.j.s.ServletContextHandler@e3cee7b{/__admin,null,STOPPED}
+3640 [main] DEBUG o.e.j.util.DecoratedObjectFactory - Adding Decorator: org.eclipse.jetty.util.DeprecationWarning@28d79cba
+3642 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting o.e.j.s.ServletContextHandler@e3cee7b{/__admin,null,STARTING}
+3642 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ServletHandler@c1fca1e{STOPPED}
+3645 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/not-matched[EMBEDDED:null] mapped to servlet=com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-2a7b6f69[EMBEDDED:null]
+3647 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/not-matched] (group: EXACT, prefix: "/not-matched", suffix: "null")
+3652 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@ee4519a{/not-matched},resource=MappedServlet71870da7{/not-matched->com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-2a7b6f69==com.github.tomakehurst.wiremock.servlet.NotMatchedServlet@555cdb7f{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=1]
+3653 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/recorder/*[EMBEDDED:null] mapped to servlet=org.eclipse.jetty.servlet.DefaultServlet-1e886a5b[EMBEDDED:null]
+3653 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/recorder/*] (group: PREFIX_GLOB, prefix: "/recorder", suffix: "null")
+3654 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@4ccddc4a{/recorder/*},resource=MappedServlet6dd91637{/recorder/*->org.eclipse.jetty.servlet.DefaultServlet-1e886a5b==org.eclipse.jetty.servlet.DefaultServlet@2468cc6b{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=2]
+3654 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/[EMBEDDED:null] mapped to servlet=com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-6c451c9c[EMBEDDED:null]
+3654 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@9457dcb7{/},resource=MappedServlet45792847{/->com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-6c451c9c==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@18b0f618{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=3]
+3655 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/swagger-ui/*[EMBEDDED:null] mapped to servlet=org.eclipse.jetty.servlet.DefaultServlet-41382722[EMBEDDED:null]
+3655 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/swagger-ui/*] (group: PREFIX_GLOB, prefix: "/swagger-ui", suffix: "null")
+3655 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@fe042bf3{/swagger-ui/*},resource=MappedServlet706cb08{/swagger-ui/*->org.eclipse.jetty.servlet.DefaultServlet-41382722==org.eclipse.jetty.servlet.DefaultServlet@94bd9f06{jsp=null,order=-1,inst=false,async=false,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=4]
+3655 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={org.eclipse.jetty.servlets.CrossOriginFilter-29539e36=org.eclipse.jetty.servlets.CrossOriginFilter-29539e36==org.eclipse.jetty.servlets.CrossOriginFilter@29539e36{inst=false,async=true,src=EMBEDDED:null}} pathFilters=[[/*]/[]/[REQUEST]=>org.eclipse.jetty.servlets.CrossOriginFilter-29539e36] servletFilterMap={} servletPathMap=PathMappings[size=4] servletNameMap={org.eclipse.jetty.servlet.DefaultServlet-1e886a5b=MappedServlet6b68cb27{null->org.eclipse.jetty.servlet.DefaultServlet-1e886a5b==org.eclipse.jetty.servlet.DefaultServlet@2468cc6b{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}, com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-2a7b6f69=MappedServlet675ffd1d{null->com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-2a7b6f69==com.github.tomakehurst.wiremock.servlet.NotMatchedServlet@555cdb7f{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}, com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-6c451c9c=MappedServlet56303475{null->com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-6c451c9c==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@18b0f618{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}, org.eclipse.jetty.servlet.DefaultServlet-41382722=MappedServlet30506c0d{null->org.eclipse.jetty.servlet.DefaultServlet-41382722==org.eclipse.jetty.servlet.DefaultServlet@94bd9f06{jsp=null,order=-1,inst=false,async=false,src=EMBEDDED:null,STOPPED}}}
+3656 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting ServletHandler@c1fca1e{STARTING}
+3657 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4318ms ServletHandler@c1fca1e{STARTED}
+3658 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING org.eclipse.jetty.servlets.CrossOriginFilter-29539e36==org.eclipse.jetty.servlets.CrossOriginFilter@29539e36{inst=false,async=true,src=EMBEDDED:null}
+3658 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4319ms org.eclipse.jetty.servlets.CrossOriginFilter-29539e36==org.eclipse.jetty.servlets.CrossOriginFilter@29539e36{inst=false,async=true,src=EMBEDDED:null}
+3662 [main] DEBUG o.e.jetty.servlet.FilterHolder - Filter.init org.eclipse.jetty.servlets.CrossOriginFilter@652ab8d9
+3672 [main] DEBUG o.e.j.servlets.CrossOriginFilter - Cross-origin filter configuration: allowedOrigins = *, allowedTimingOrigins = null, allowedMethods = OPTIONS,GET,POST,PUT,PATCH,DELETE, allowedHeaders = *, preflightMaxAge = 1800, allowCredentials = true,exposedHeaders = ,chainPreflight = false
+3672 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-2a7b6f69==com.github.tomakehurst.wiremock.servlet.NotMatchedServlet@555cdb7f{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+3674 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4335ms com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-2a7b6f69==com.github.tomakehurst.wiremock.servlet.NotMatchedServlet@555cdb7f{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+3674 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-6c451c9c==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@18b0f618{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+3675 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4336ms com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-6c451c9c==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@18b0f618{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+3675 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING org.eclipse.jetty.servlet.DefaultServlet-1e886a5b==org.eclipse.jetty.servlet.DefaultServlet@2468cc6b{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+3675 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4336ms org.eclipse.jetty.servlet.DefaultServlet-1e886a5b==org.eclipse.jetty.servlet.DefaultServlet@2468cc6b{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+3676 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING org.eclipse.jetty.servlet.DefaultServlet-41382722==org.eclipse.jetty.servlet.DefaultServlet@94bd9f06{jsp=null,order=-1,inst=false,async=false,src=EMBEDDED:null,STOPPED}
+3676 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4337ms org.eclipse.jetty.servlet.DefaultServlet-41382722==org.eclipse.jetty.servlet.DefaultServlet@94bd9f06{jsp=null,order=-1,inst=false,async=false,src=EMBEDDED:null,STARTED}
+3676 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@e3cee7b{/__admin,null,AVAILABLE}
+3677 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4338ms o.e.j.s.ServletContextHandler@e3cee7b{/__admin,null,AVAILABLE}
+3677 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING AbstractHandler@66b72664{STOPPED}
+3677 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting AbstractHandler@66b72664{STARTING}
+3677 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4338ms AbstractHandler@66b72664{STARTED}
+3677 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING GzipHandler@6ac4944a{STOPPED,min=32,inflate=-1}
+3679 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING InflaterPool@7ac9af2a{STOPPED,size=-1,capacity=25}
+3680 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - InflaterPool@7ac9af2a{STARTING,size=0,capacity=25} added {Pool@7bb004b8[inUse=0,size=0,max=25,closed=false],POJO}
+3682 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4343ms InflaterPool@7ac9af2a{STARTED,size=0,capacity=25}
+3682 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@c65a5ef{STARTING}[11.0.15,sto=1000] added {InflaterPool@7ac9af2a{STARTED,size=0,capacity=25},MANAGED}
+3683 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - GzipHandler@6ac4944a{STARTING,min=32,inflate=-1} added {InflaterPool@7ac9af2a{STARTED,size=0,capacity=25},UNMANAGED}
+3685 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING DeflaterPool@7e7f0f0a{STOPPED,size=-1,capacity=25}
+3686 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - DeflaterPool@7e7f0f0a{STARTING,size=0,capacity=25} added {Pool@7ec58feb[inUse=0,size=0,max=25,closed=false],POJO}
+3686 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4347ms DeflaterPool@7e7f0f0a{STARTED,size=0,capacity=25}
+3687 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@c65a5ef{STARTING}[11.0.15,sto=1000] added {DeflaterPool@7e7f0f0a{STARTED,size=0,capacity=25},MANAGED}
+3687 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - GzipHandler@6ac4944a{STARTING,min=32,inflate=-1} added {DeflaterPool@7e7f0f0a{STARTED,size=0,capacity=25},UNMANAGED}
+3687 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting GzipHandler@6ac4944a{STARTING,min=32,inflate=-1}
+3688 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING o.e.j.s.ServletContextHandler@ecf9fb3{/,null,STOPPED}
+3688 [main] DEBUG o.e.j.util.DecoratedObjectFactory - Adding Decorator: org.eclipse.jetty.util.DeprecationWarning@1dbb650b
+3688 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting o.e.j.s.ServletContextHandler@ecf9fb3{/,null,STARTING}
+3688 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ServletHandler@2d35442b{STOPPED}
+3689 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/__files/*[EMBEDDED:null] mapped to servlet=org.eclipse.jetty.servlet.DefaultServlet-27f9e982[EMBEDDED:null]
+3689 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/__files/*] (group: PREFIX_GLOB, prefix: "/__files", suffix: "null")
+3689 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@6b2fe10e{/__files/*},resource=MappedServlet656d10a4{/__files/*->org.eclipse.jetty.servlet.DefaultServlet-27f9e982==org.eclipse.jetty.servlet.DefaultServlet@598d1f25{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=1]
+3689 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/[EMBEDDED:null] mapped to servlet=com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-7cd1ac19[EMBEDDED:null]
+3690 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@9457dcb7{/},resource=MappedServlet63ec445c{/->com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-7cd1ac19==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@d2583371{jsp=null,order=1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=2]
+3690 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-e041f0c=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-e041f0c==com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter@e041f0c{inst=false,async=true,src=EMBEDDED:null}, com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-3f3c966c=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-3f3c966c==com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter@3f3c966c{inst=false,async=true,src=EMBEDDED:null}} pathFilters=[[/__files/*]/[]/[ERROR, ASYNC, FORWARD, INCLUDE, REQUEST]=>com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-3f3c966c, [/__files/*]/[]/[FORWARD]=>com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-e041f0c] servletFilterMap={} servletPathMap=PathMappings[size=2] servletNameMap={org.eclipse.jetty.servlet.DefaultServlet-27f9e982=MappedServlet6b474074{null->org.eclipse.jetty.servlet.DefaultServlet-27f9e982==org.eclipse.jetty.servlet.DefaultServlet@598d1f25{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}, com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-7cd1ac19=MappedServlet108531c2{null->com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-7cd1ac19==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@d2583371{jsp=null,order=1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}}
+3691 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting ServletHandler@2d35442b{STARTING}
+3691 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4352ms ServletHandler@2d35442b{STARTED}
+3691 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING NotFoundHandler@5f577419{STOPPED}
+3691 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting NotFoundHandler@5f577419{STARTING}
+3691 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4352ms NotFoundHandler@5f577419{STARTED}
+3692 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-e041f0c==com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter@e041f0c{inst=false,async=true,src=EMBEDDED:null}
+3692 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4353ms com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-e041f0c==com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter@e041f0c{inst=false,async=true,src=EMBEDDED:null}
+3692 [main] DEBUG o.e.jetty.servlet.FilterHolder - Filter.init com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter@6a9d5dff
+3693 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-3f3c966c==com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter@3f3c966c{inst=false,async=true,src=EMBEDDED:null}
+3693 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4354ms com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-3f3c966c==com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter@3f3c966c{inst=false,async=true,src=EMBEDDED:null}
+3693 [main] DEBUG o.e.jetty.servlet.FilterHolder - Filter.init com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter@2bac9ba
+3693 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING org.eclipse.jetty.servlet.DefaultServlet-27f9e982==org.eclipse.jetty.servlet.DefaultServlet@598d1f25{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+3694 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4355ms org.eclipse.jetty.servlet.DefaultServlet-27f9e982==org.eclipse.jetty.servlet.DefaultServlet@598d1f25{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+3694 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-7cd1ac19==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@d2583371{jsp=null,order=1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+3694 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4355ms com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-7cd1ac19==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@d2583371{jsp=null,order=1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+3711 [main] DEBUG o.e.jetty.servlet.ServletHolder - Servlet.init null for com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-7cd1ac19
+3711 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+3713 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@ecf9fb3{/,null,AVAILABLE}
+3713 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4374ms o.e.j.s.ServletContextHandler@ecf9fb3{/,null,AVAILABLE}
+3713 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4374ms GzipHandler@6ac4944a{STARTED,min=32,inflate=-1}
+3714 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4375ms HandlerCollection@df5f5c0{STARTED}
+3714 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ErrorHandler@8a62297{STOPPED}
+3714 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting ErrorHandler@8a62297{STARTING}
+3714 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4375ms ErrorHandler@8a62297{STARTED}
+3714 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+3719 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ScheduledExecutorScheduler@687a762c{STOPPED}
+3722 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4383ms ScheduledExecutorScheduler@687a762c{STARTED}
+3723 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING HttpConnectionFactory@16fb356[HTTP/1.1]
+3723 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4384ms HttpConnectionFactory@16fb356[HTTP/1.1]
+3723 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING HTTP2CServerConnectionFactory@3574e198[h2c]
+3723 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4384ms HTTP2CServerConnectionFactory@3574e198[h2c]
+3723 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING SelectorManager@NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+3730 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - AdaptiveExecutionStrategy@3e7dfd44/SelectorProducer@723ed581/IDLE/p=false/QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=8,r=-1,t=59906ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:33:45.5418902+01:00 added {SelectorProducer@723ed581,POJO}
+3731 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - AdaptiveExecutionStrategy@3e7dfd44/SelectorProducer@723ed581/IDLE/p=false/QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=8,r=-1,t=59905ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:33:45.5418902+01:00 added {QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=8,r=-1,t=59905ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}],UNMANAGED}
+3732 [main] DEBUG o.e.j.u.t.s.AdaptiveExecutionStrategy - AdaptiveExecutionStrategy@3e7dfd44/SelectorProducer@723ed581/IDLE/p=false/QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=8,r=-1,t=59904ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:33:45.5428861+01:00 created
+3732 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ManagedSelector@6b760460{STOPPED} id=0 keys=-1 selected=-1 updates=0 added {AdaptiveExecutionStrategy@3e7dfd44/SelectorProducer@723ed581/IDLE/p=false/QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=8,r=-1,t=59904ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:33:45.5438845+01:00,MANAGED}
+3733 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - SelectorManager@NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} added {ManagedSelector@6b760460{STOPPED} id=0 keys=-1 selected=-1 updates=0,AUTO}
+3734 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - AdaptiveExecutionStrategy@796065aa/SelectorProducer@28a6301f/IDLE/p=false/QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=8,r=-1,t=59903ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:33:45.5448874+01:00 added {SelectorProducer@28a6301f,POJO}
+3734 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - AdaptiveExecutionStrategy@796065aa/SelectorProducer@28a6301f/IDLE/p=false/QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=8,r=-1,t=59902ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:33:45.5448874+01:00 added {QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=8,r=-1,t=59902ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}],UNMANAGED}
+3734 [main] DEBUG o.e.j.u.t.s.AdaptiveExecutionStrategy - AdaptiveExecutionStrategy@796065aa/SelectorProducer@28a6301f/IDLE/p=false/QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=8,r=-1,t=59902ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:33:45.5448874+01:00 created
+3735 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ManagedSelector@2c306a57{STOPPED} id=1 keys=-1 selected=-1 updates=0 added {AdaptiveExecutionStrategy@796065aa/SelectorProducer@28a6301f/IDLE/p=false/QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=8,r=-1,t=59902ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:33:45.5458833+01:00,MANAGED}
+3735 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - SelectorManager@NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} added {ManagedSelector@2c306a57{STOPPED} id=1 keys=-1 selected=-1 updates=0,AUTO}
+3735 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ManagedSelector@6b760460{STOPPED} id=0 keys=-1 selected=-1 updates=0
+3735 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING AdaptiveExecutionStrategy@3e7dfd44/SelectorProducer@723ed581/IDLE/p=false/QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=8,r=-1,t=59901ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:33:45.5468839+01:00
+3736 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4397ms AdaptiveExecutionStrategy@3e7dfd44/SelectorProducer@723ed581/IDLE/p=false/QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=8,r=-1,t=59901ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:33:45.5468839+01:00
+3837 [qtp509559152-25] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.io.ManagedSelector$$Lambda/0x0000025b812c9200@3c5d9bf4 in QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=7,r=-1,t=59799ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+3838 [qtp509559152-25] DEBUG o.e.j.u.t.s.AdaptiveExecutionStrategy - AdaptiveExecutionStrategy@3e7dfd44/SelectorProducer@723ed581/IDLE/p=false/QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=7,r=-1,t=59798ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:33:45.6488878+01:00 tryProduce false
+3844 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 0
+3859 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+3860 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@2ac015b8 waiting with 0 keys
+3840 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - queue org.eclipse.jetty.io.ManagedSelector$$Lambda/0x0000025b812c9200@3c5d9bf4 startThread=0
+3879 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$Start@5e8604bf on ManagedSelector@6b760460{STARTING} id=0 keys=0 selected=0 updates=0
+3881 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Wakeup on submit ManagedSelector@6b760460{STARTING} id=0 keys=0 selected=0 updates=1
+3886 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@2ac015b8 woken with none selected
+3887 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@2ac015b8 woken up from select, 0/0/0 selected
+3887 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@2ac015b8 processing 0 keys, 1 updates
+3887 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 1
+3887 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$Start@5e8604bf
+3887 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+3887 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@2ac015b8 waiting with 0 keys
+3888 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4549ms ManagedSelector@6b760460{STARTED} id=0 keys=0 selected=0 updates=0
+3888 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ManagedSelector@2c306a57{STOPPED} id=1 keys=-1 selected=-1 updates=0
+3888 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING AdaptiveExecutionStrategy@796065aa/SelectorProducer@28a6301f/IDLE/p=false/QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=7,r=-1,t=59748ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:33:45.69989+01:00
+3889 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4550ms AdaptiveExecutionStrategy@796065aa/SelectorProducer@28a6301f/IDLE/p=false/QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=7,r=-1,t=59747ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:33:45.69989+01:00
+3895 [qtp509559152-26] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.io.ManagedSelector$$Lambda/0x0000025b812c9200@4e2916c3 in QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=6,r=-1,t=59742ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+3895 [qtp509559152-26] DEBUG o.e.j.u.t.s.AdaptiveExecutionStrategy - AdaptiveExecutionStrategy@796065aa/SelectorProducer@28a6301f/IDLE/p=false/QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=6,r=-1,t=59741ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:33:45.7058848+01:00 tryProduce false
+3896 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 0
+3896 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+3896 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@48b6e0c1 waiting with 0 keys
+3895 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - queue org.eclipse.jetty.io.ManagedSelector$$Lambda/0x0000025b812c9200@4e2916c3 startThread=0
+3897 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$Start@64aad6db on ManagedSelector@2c306a57{STARTING} id=1 keys=0 selected=0 updates=0
+3900 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Wakeup on submit ManagedSelector@2c306a57{STARTING} id=1 keys=0 selected=0 updates=1
+3901 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@48b6e0c1 woken with none selected
+3901 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@48b6e0c1 woken up from select, 0/0/0 selected
+3901 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@48b6e0c1 processing 0 keys, 1 updates
+3901 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 1
+3901 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$Start@64aad6db
+3902 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+3902 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@48b6e0c1 waiting with 0 keys
+3906 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4567ms ManagedSelector@2c306a57{STARTED} id=1 keys=0 selected=0 updates=0
+3916 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4577ms SelectorManager@NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+3919 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} added {acceptor-0@546621c4,POJO}
+3920 [qtp509559152-28] DEBUG o.e.j.util.thread.QueuedThreadPool - run acceptor-0@546621c4 in QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=5,r=-1,t=59717ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+3930 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - queue qtp509559152-28-acceptor-0@546621c4-NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} startThread=0
+3930 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} added {acceptor-1@621f89b8,POJO}
+3930 [qtp509559152-27] DEBUG o.e.j.util.thread.QueuedThreadPool - run acceptor-1@621f89b8 in QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=4,r=-1,t=59704ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+3935 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - queue qtp509559152-27-acceptor-1@621f89b8-NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} startThread=0
+3935 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} added {acceptor-2@f339eae,POJO}
+3935 [qtp509559152-30] DEBUG o.e.j.util.thread.QueuedThreadPool - run acceptor-2@f339eae in QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=3,r=-1,t=59690ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+3947 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - queue qtp509559152-30-acceptor-2@f339eae-NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} startThread=0
+3948 [main] INFO  o.e.jetty.server.AbstractConnector - Started NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+3949 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4610ms NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+3955 [main] INFO  org.eclipse.jetty.server.Server - Started Server@c65a5ef{STARTING}[11.0.15,sto=1000] @4616ms
+3955 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @4616ms Server@c65a5ef{STARTED}[11.0.15,sto=1000]
+4010 [main] INFO  com.max.AbstractBookingTest - Start WireMockServer on port 8080
+4124 [main] INFO  com.max.PositiveBookingTest - Running positive booking test
+4174 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING Server@c65a5ef{STARTED}[11.0.15,sto=1000]
+4174 [main] INFO  org.eclipse.jetty.server.Server - Stopped Server@c65a5ef{STOPPING}[11.0.15,sto=1000]
+4175 [main] DEBUG org.eclipse.jetty.server.Server - doStop Server@c65a5ef{STOPPING}[11.0.15,sto=1000]
+4176 [main] INFO  org.eclipse.jetty.server.Server - Shutdown Server@c65a5ef{STOPPING}[11.0.15,sto=1000]
+4178 [main] DEBUG org.eclipse.jetty.server.Server - graceful HTTP2SessionContainer@6db66836[size=0]
+4179 [main] DEBUG org.eclipse.jetty.server.Server - graceful NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+4180 [main] DEBUG org.eclipse.jetty.server.Server - graceful o.e.j.s.ServletContextHandler@e3cee7b{/__admin,null,AVAILABLE}
+4180 [main] DEBUG org.eclipse.jetty.server.Server - graceful o.e.j.s.ServletContextHandler@ecf9fb3{/,null,AVAILABLE}
+4242 [qtp509559152-27] DEBUG o.e.j.util.thread.QueuedThreadPool - ran qtp509559152-27-acceptor-1@621f89b8-NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} in QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=3,r=-1,t=59395ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+4243 [qtp509559152-27] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=4,r=-1,t=59394ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+4243 [qtp509559152-30] DEBUG o.e.j.util.thread.QueuedThreadPool - ran qtp509559152-30-acceptor-2@f339eae-NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} in QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=4,r=-1,t=59394ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+4243 [qtp509559152-30] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=5,r=-1,t=59393ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+4248 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+4251 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING SelectorManager@NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+4254 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING ManagedSelector@2c306a57{STARTED} id=1 keys=0 selected=0 updates=0
+4257 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$CloseConnections@69d6a7cd on ManagedSelector@2c306a57{STOPPING} id=1 keys=0 selected=0 updates=0
+4258 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Wakeup on submit ManagedSelector@2c306a57{STOPPING} id=1 keys=0 selected=0 updates=1
+4259 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@48b6e0c1 woken with none selected
+4260 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@48b6e0c1 woken up from select, 0/0/0 selected
+4260 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@48b6e0c1 processing 0 keys, 1 updates
+4261 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 1
+4264 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$CloseConnections@69d6a7cd
+4265 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Closing 0 connections on ManagedSelector@2c306a57{STOPPING} id=1 keys=0 selected=0 updates=0
+4265 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+4265 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@48b6e0c1 waiting with 0 keys
+4267 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$StopSelector@6cf31447 on ManagedSelector@2c306a57{STOPPING} id=1 keys=0 selected=0 updates=0
+4268 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Wakeup on submit ManagedSelector@2c306a57{STOPPING} id=1 keys=0 selected=0 updates=1
+4269 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@48b6e0c1 woken with none selected
+4269 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@48b6e0c1 woken up from select, 0/0/0 selected
+4269 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@48b6e0c1 processing 0 keys, 1 updates
+4269 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 1
+4269 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$StopSelector@6cf31447
+4274 [qtp509559152-26] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+4274 [qtp509559152-26] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.io.ManagedSelector$$Lambda/0x0000025b812c9200@4e2916c3 in QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=5,r=-1,t=59362ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+4275 [qtp509559152-26] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=6,r=-1,t=59362ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+4276 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING AdaptiveExecutionStrategy@796065aa/SelectorProducer@28a6301f/IDLE/p=false/QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=6,r=-1,t=59361ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:33:46.0865952+01:00
+4277 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED AdaptiveExecutionStrategy@796065aa/SelectorProducer@28a6301f/IDLE/p=false/QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=6,r=-1,t=59359ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:33:46.0875876+01:00
+4278 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED ManagedSelector@2c306a57{STOPPED} id=1 keys=-1 selected=-1 updates=0
+4278 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING ManagedSelector@6b760460{STARTED} id=0 keys=0 selected=0 updates=0
+4278 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$CloseConnections@4e92466a on ManagedSelector@6b760460{STOPPING} id=0 keys=0 selected=0 updates=0
+4279 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Wakeup on submit ManagedSelector@6b760460{STOPPING} id=0 keys=0 selected=0 updates=1
+4279 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@2ac015b8 woken with none selected
+4279 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@2ac015b8 woken up from select, 0/0/0 selected
+4280 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@2ac015b8 processing 0 keys, 1 updates
+4281 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 1
+4281 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$CloseConnections@4e92466a
+4281 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Closing 0 connections on ManagedSelector@6b760460{STOPPING} id=0 keys=0 selected=0 updates=0
+4281 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+4281 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@2ac015b8 waiting with 0 keys
+4281 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$StopSelector@66e8997c on ManagedSelector@6b760460{STOPPING} id=0 keys=0 selected=0 updates=0
+4282 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Wakeup on submit ManagedSelector@6b760460{STOPPING} id=0 keys=0 selected=0 updates=1
+4282 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@2ac015b8 woken with none selected
+4282 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@2ac015b8 woken up from select, 0/0/0 selected
+4284 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@2ac015b8 processing 0 keys, 1 updates
+4285 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 1
+4286 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$StopSelector@66e8997c
+4286 [qtp509559152-25] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+4287 [qtp509559152-25] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.io.ManagedSelector$$Lambda/0x0000025b812c9200@3c5d9bf4 in QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=6,r=-1,t=59349ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+4288 [qtp509559152-25] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=7,r=-1,t=59349ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+4292 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING AdaptiveExecutionStrategy@3e7dfd44/SelectorProducer@723ed581/IDLE/p=false/QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=7,r=-1,t=59344ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:33:46.1035857+01:00
+4293 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED AdaptiveExecutionStrategy@3e7dfd44/SelectorProducer@723ed581/IDLE/p=false/QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=7,r=-1,t=59344ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:33:46.1035857+01:00
+4293 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED ManagedSelector@6b760460{STOPPED} id=0 keys=-1 selected=-1 updates=0
+4294 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED SelectorManager@NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+4294 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING HTTP2CServerConnectionFactory@3574e198[h2c]
+4294 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED HTTP2CServerConnectionFactory@3574e198[h2c]
+4295 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING HttpConnectionFactory@16fb356[HTTP/1.1]
+4295 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED HttpConnectionFactory@16fb356[HTTP/1.1]
+4295 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING ScheduledExecutorScheduler@687a762c{STARTED}
+4296 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED ScheduledExecutorScheduler@687a762c{STOPPED}
+4296 [main] INFO  o.e.jetty.server.AbstractConnector - Stopped NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+4296 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+4297 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping Server@c65a5ef{STOPPING}[11.0.15,sto=1000]
+4297 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING DeflaterPool@7e7f0f0a{STARTED,size=0,capacity=25}
+4298 [main] DEBUG org.eclipse.jetty.util.Pool - Closing Pool@7ec58feb[inUse=0,size=0,max=25,closed=false]
+4299 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED DeflaterPool@7e7f0f0a{STOPPED,size=-1,capacity=25}
+4299 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING InflaterPool@7ac9af2a{STARTED,size=0,capacity=25}
+4301 [main] DEBUG org.eclipse.jetty.util.Pool - Closing Pool@7bb004b8[inUse=0,size=0,max=25,closed=false]
+4302 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED InflaterPool@7ac9af2a{STOPPED,size=-1,capacity=25}
+4302 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING ErrorHandler@8a62297{STARTED}
+4302 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping ErrorHandler@8a62297{STOPPING}
+4302 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED ErrorHandler@8a62297{STOPPED}
+4302 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING HandlerCollection@df5f5c0{STARTED}
+4303 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping HandlerCollection@df5f5c0{STOPPING}
+4303 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING GzipHandler@6ac4944a{STARTED,min=32,inflate=-1}
+4303 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping GzipHandler@6ac4944a{STOPPING,min=32,inflate=-1}
+4349 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING o.e.j.s.ServletContextHandler@ecf9fb3{/,null,SHUTDOWN}
+4350 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping o.e.j.s.ServletContextHandler@ecf9fb3{/,null,STOPPED}
+4352 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING NotFoundHandler@5f577419{STARTED}
+4352 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping NotFoundHandler@5f577419{STOPPING}
+4353 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED NotFoundHandler@5f577419{STOPPED}
+4353 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING ServletHandler@2d35442b{STARTED}
+4353 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping ServletHandler@2d35442b{STOPPING}
+4353 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-3f3c966c==com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter@3f3c966c{inst=true,async=true,src=EMBEDDED:null}
+4354 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-3f3c966c==com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter@3f3c966c{inst=false,async=true,src=EMBEDDED:null}
+4355 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-e041f0c==com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter@e041f0c{inst=true,async=true,src=EMBEDDED:null}
+4356 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-e041f0c==com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter@e041f0c{inst=false,async=true,src=EMBEDDED:null}
+4356 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-7cd1ac19==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@d2583371{jsp=null,order=1,inst=true,async=true,src=EMBEDDED:null,STARTED}
+4356 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-7cd1ac19==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@d2583371{jsp=null,order=1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+4356 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING org.eclipse.jetty.servlet.DefaultServlet-27f9e982==org.eclipse.jetty.servlet.DefaultServlet@598d1f25{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+4357 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED org.eclipse.jetty.servlet.DefaultServlet-27f9e982==org.eclipse.jetty.servlet.DefaultServlet@598d1f25{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+4358 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/__files/*[EMBEDDED:null] mapped to servlet=org.eclipse.jetty.servlet.DefaultServlet-27f9e982[EMBEDDED:null]
+4359 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/__files/*] (group: PREFIX_GLOB, prefix: "/__files", suffix: "null")
+4360 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@6b2fe10e{/__files/*},resource=MappedServlet3a2b2322{/__files/*->org.eclipse.jetty.servlet.DefaultServlet-27f9e982==org.eclipse.jetty.servlet.DefaultServlet@598d1f25{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=1]
+4360 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/[EMBEDDED:null] mapped to servlet=com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-7cd1ac19[EMBEDDED:null]
+4360 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@9457dcb7{/},resource=MappedServlet5e1218b4{/->com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-7cd1ac19==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@d2583371{jsp=null,order=1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=2]
+4364 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-e041f0c=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-e041f0c==com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter@e041f0c{inst=false,async=true,src=EMBEDDED:null}, com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-3f3c966c=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-3f3c966c==com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter@3f3c966c{inst=false,async=true,src=EMBEDDED:null}} pathFilters=[[/__files/*]/[]/[ERROR, ASYNC, FORWARD, INCLUDE, REQUEST]=>com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-3f3c966c, [/__files/*]/[]/[FORWARD]=>com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-e041f0c] servletFilterMap={} servletPathMap=PathMappings[size=2] servletNameMap={org.eclipse.jetty.servlet.DefaultServlet-27f9e982=MappedServlet12958360{null->org.eclipse.jetty.servlet.DefaultServlet-27f9e982==org.eclipse.jetty.servlet.DefaultServlet@598d1f25{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}, com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-7cd1ac19=MappedServletc6e0f32{null->com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-7cd1ac19==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@d2583371{jsp=null,order=1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}}
+4367 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED ServletHandler@2d35442b{STOPPED}
+4368 [main] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@ecf9fb3{/,null,STOPPED}
+4371 [qtp509559152-28] DEBUG o.e.j.util.thread.QueuedThreadPool - ran qtp509559152-28-acceptor-0@546621c4-NetworkTrafficServerConnector@579d011c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} in QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=7,r=-1,t=59265ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+4372 [qtp509559152-28] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=8,r=-1,t=59264ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+4369 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED o.e.j.s.ServletContextHandler@ecf9fb3{/,null,STOPPED}
+4373 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED GzipHandler@6ac4944a{STOPPED,min=32,inflate=-1}
+4373 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING AbstractHandler@66b72664{STARTED}
+4373 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping AbstractHandler@66b72664{STOPPING}
+4374 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED AbstractHandler@66b72664{STOPPED}
+4374 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING o.e.j.s.ServletContextHandler@e3cee7b{/__admin,null,SHUTDOWN}
+4374 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping o.e.j.s.ServletContextHandler@e3cee7b{/__admin,null,STOPPED}
+4375 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING ServletHandler@c1fca1e{STARTED}
+4375 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping ServletHandler@c1fca1e{STOPPING}
+4375 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING org.eclipse.jetty.servlets.CrossOriginFilter-29539e36==org.eclipse.jetty.servlets.CrossOriginFilter@29539e36{inst=true,async=true,src=EMBEDDED:null}
+4387 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED org.eclipse.jetty.servlets.CrossOriginFilter-29539e36==org.eclipse.jetty.servlets.CrossOriginFilter@29539e36{inst=false,async=true,src=EMBEDDED:null}
+4387 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-2a7b6f69==com.github.tomakehurst.wiremock.servlet.NotMatchedServlet@555cdb7f{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+4387 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-2a7b6f69==com.github.tomakehurst.wiremock.servlet.NotMatchedServlet@555cdb7f{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+4392 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-6c451c9c==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@18b0f618{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+4393 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-6c451c9c==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@18b0f618{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+4400 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING org.eclipse.jetty.servlet.DefaultServlet-1e886a5b==org.eclipse.jetty.servlet.DefaultServlet@2468cc6b{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+4401 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED org.eclipse.jetty.servlet.DefaultServlet-1e886a5b==org.eclipse.jetty.servlet.DefaultServlet@2468cc6b{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+4401 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING org.eclipse.jetty.servlet.DefaultServlet-41382722==org.eclipse.jetty.servlet.DefaultServlet@94bd9f06{jsp=null,order=-1,inst=false,async=false,src=EMBEDDED:null,STARTED}
+4402 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED org.eclipse.jetty.servlet.DefaultServlet-41382722==org.eclipse.jetty.servlet.DefaultServlet@94bd9f06{jsp=null,order=-1,inst=false,async=false,src=EMBEDDED:null,STOPPED}
+4403 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/not-matched[EMBEDDED:null] mapped to servlet=com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-2a7b6f69[EMBEDDED:null]
+4404 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/not-matched] (group: EXACT, prefix: "/not-matched", suffix: "null")
+4406 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@ee4519a{/not-matched},resource=MappedServlet7428de63{/not-matched->com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-2a7b6f69==com.github.tomakehurst.wiremock.servlet.NotMatchedServlet@555cdb7f{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=1]
+4406 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/recorder/*[EMBEDDED:null] mapped to servlet=org.eclipse.jetty.servlet.DefaultServlet-1e886a5b[EMBEDDED:null]
+4407 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/recorder/*] (group: PREFIX_GLOB, prefix: "/recorder", suffix: "null")
+4407 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@4ccddc4a{/recorder/*},resource=MappedServlet66f659e6{/recorder/*->org.eclipse.jetty.servlet.DefaultServlet-1e886a5b==org.eclipse.jetty.servlet.DefaultServlet@2468cc6b{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=2]
+4407 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/[EMBEDDED:null] mapped to servlet=com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-6c451c9c[EMBEDDED:null]
+4408 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@9457dcb7{/},resource=MappedServlet4a68135e{/->com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-6c451c9c==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@18b0f618{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=3]
+4410 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/swagger-ui/*[EMBEDDED:null] mapped to servlet=org.eclipse.jetty.servlet.DefaultServlet-41382722[EMBEDDED:null]
+4420 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/swagger-ui/*] (group: PREFIX_GLOB, prefix: "/swagger-ui", suffix: "null")
+4420 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@fe042bf3{/swagger-ui/*},resource=MappedServlet46678e49{/swagger-ui/*->org.eclipse.jetty.servlet.DefaultServlet-41382722==org.eclipse.jetty.servlet.DefaultServlet@94bd9f06{jsp=null,order=-1,inst=false,async=false,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=4]
+4421 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={org.eclipse.jetty.servlets.CrossOriginFilter-29539e36=org.eclipse.jetty.servlets.CrossOriginFilter-29539e36==org.eclipse.jetty.servlets.CrossOriginFilter@29539e36{inst=false,async=true,src=EMBEDDED:null}} pathFilters=[[/*]/[]/[REQUEST]=>org.eclipse.jetty.servlets.CrossOriginFilter-29539e36] servletFilterMap={} servletPathMap=PathMappings[size=4] servletNameMap={com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-2a7b6f69=MappedServlet748e9b20{null->com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-2a7b6f69==com.github.tomakehurst.wiremock.servlet.NotMatchedServlet@555cdb7f{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}, org.eclipse.jetty.servlet.DefaultServlet-1e886a5b=MappedServlet2063c53e{null->org.eclipse.jetty.servlet.DefaultServlet-1e886a5b==org.eclipse.jetty.servlet.DefaultServlet@2468cc6b{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}, com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-6c451c9c=MappedServlet2a9bc08f{null->com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-6c451c9c==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@18b0f618{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}, org.eclipse.jetty.servlet.DefaultServlet-41382722=MappedServlet50f40653{null->org.eclipse.jetty.servlet.DefaultServlet-41382722==org.eclipse.jetty.servlet.DefaultServlet@94bd9f06{jsp=null,order=-1,inst=false,async=false,src=EMBEDDED:null,STOPPED}}}
+4421 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED ServletHandler@c1fca1e{STOPPED}
+4422 [main] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@e3cee7b{/__admin,null,STOPPED}
+4422 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED o.e.j.s.ServletContextHandler@e3cee7b{/__admin,null,STOPPED}
+4422 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED HandlerCollection@df5f5c0{STOPPED}
+4423 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING AttributeContainerMap@11dee337{size=0}
+4423 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED AttributeContainerMap@11dee337{size=0}
+4425 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING QueuedThreadPool[qtp509559152]@1e5f4170{STARTED,8<=8<=25,i=8,r=-1,t=59206ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+4432 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Stopping QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=8<=25,i=8,r=-1,t=59205ms,q=0}[ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}]
+4437 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING ReservedThreadExecutor@55b8dbda{reserved=0/2,pending=0}
+4452 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED ReservedThreadExecutor@55b8dbda{reserved=-1/2,pending=0}
+4453 [qtp509559152-29] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x0000025b8120fb08@4ffb79b5 in QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=8,r=-1,t=59184ms,q=0}[NO_TRY]
+4453 [qtp509559152-29] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x0000025b8120fb08@4ffb79b5 in QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=8,r=-1,t=59184ms,q=0}[NO_TRY]
+4455 [qtp509559152-29] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=9,r=-1,t=59182ms,q=0}[NO_TRY]
+4455 [qtp509559152-32] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x0000025b8120fb08@4ffb79b5 in QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=9,r=-1,t=59181ms,q=0}[NO_TRY]
+4456 [qtp509559152-32] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x0000025b8120fb08@4ffb79b5 in QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=9,r=-1,t=59181ms,q=0}[NO_TRY]
+4456 [qtp509559152-32] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=10,r=-1,t=59181ms,q=0}[NO_TRY]
+4456 [qtp509559152-32] DEBUG o.e.j.util.thread.QueuedThreadPool - Thread[#32,qtp509559152-32,5,main] exited for QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=10,r=-1,t=59180ms,q=0}[NO_TRY]
+4455 [qtp509559152-29] DEBUG o.e.j.util.thread.QueuedThreadPool - Thread[#29,qtp509559152-29,5,main] exited for QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=9,r=-1,t=59181ms,q=0}[NO_TRY]
+4458 [qtp509559152-31] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x0000025b8120fb08@4ffb79b5 in QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=10,r=-1,t=59179ms,q=0}[NO_TRY]
+4458 [qtp509559152-31] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x0000025b8120fb08@4ffb79b5 in QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=10,r=-1,t=59179ms,q=0}[NO_TRY]
+4458 [qtp509559152-31] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=11,r=-1,t=59178ms,q=0}[NO_TRY]
+4459 [qtp509559152-31] DEBUG o.e.j.util.thread.QueuedThreadPool - Thread[#31,qtp509559152-31,5,main] exited for QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=11,r=-1,t=59177ms,q=0}[NO_TRY]
+4467 [qtp509559152-27] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x0000025b8120fb08@4ffb79b5 in QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=11,r=-1,t=59170ms,q=0}[NO_TRY]
+4467 [qtp509559152-27] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x0000025b8120fb08@4ffb79b5 in QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=11,r=-1,t=59169ms,q=0}[NO_TRY]
+4473 [qtp509559152-27] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=12,r=-1,t=59163ms,q=0}[NO_TRY]
+4475 [qtp509559152-27] DEBUG o.e.j.util.thread.QueuedThreadPool - Thread[#27,qtp509559152-27,5,main] exited for QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=12,r=-1,t=59162ms,q=0}[NO_TRY]
+4477 [qtp509559152-30] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x0000025b8120fb08@4ffb79b5 in QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=12,r=-1,t=59160ms,q=0}[NO_TRY]
+4480 [qtp509559152-30] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x0000025b8120fb08@4ffb79b5 in QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=12,r=-1,t=59157ms,q=0}[NO_TRY]
+4480 [qtp509559152-30] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=13,r=-1,t=59156ms,q=0}[NO_TRY]
+4480 [qtp509559152-30] DEBUG o.e.j.util.thread.QueuedThreadPool - Thread[#30,qtp509559152-30,5,main] exited for QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=13,r=-1,t=59156ms,q=0}[NO_TRY]
+4481 [qtp509559152-26] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x0000025b8120fb08@4ffb79b5 in QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=13,r=-1,t=59156ms,q=0}[NO_TRY]
+4481 [qtp509559152-26] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x0000025b8120fb08@4ffb79b5 in QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=13,r=-1,t=59155ms,q=0}[NO_TRY]
+4482 [qtp509559152-26] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=14,r=-1,t=59155ms,q=0}[NO_TRY]
+4482 [qtp509559152-26] DEBUG o.e.j.util.thread.QueuedThreadPool - Thread[#26,qtp509559152-26,5,main] exited for QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=14,r=-1,t=59155ms,q=0}[NO_TRY]
+4482 [qtp509559152-25] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x0000025b8120fb08@4ffb79b5 in QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=14,r=-1,t=59154ms,q=0}[NO_TRY]
+4483 [qtp509559152-25] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x0000025b8120fb08@4ffb79b5 in QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=14,r=-1,t=59154ms,q=0}[NO_TRY]
+4483 [qtp509559152-25] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=15,r=-1,t=59154ms,q=0}[NO_TRY]
+4483 [qtp509559152-25] DEBUG o.e.j.util.thread.QueuedThreadPool - Thread[#25,qtp509559152-25,5,main] exited for QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=15,r=-1,t=59154ms,q=0}[NO_TRY]
+4484 [qtp509559152-28] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x0000025b8120fb08@4ffb79b5 in QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=15,r=-1,t=59153ms,q=0}[NO_TRY]
+4484 [qtp509559152-28] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x0000025b8120fb08@4ffb79b5 in QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=15,r=-1,t=59153ms,q=0}[NO_TRY]
+4484 [qtp509559152-28] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=16,r=-1,t=59153ms,q=0}[NO_TRY]
+4484 [qtp509559152-28] DEBUG o.e.j.util.thread.QueuedThreadPool - Thread[#28,qtp509559152-28,5,main] exited for QueuedThreadPool[qtp509559152]@1e5f4170{STOPPING,8<=0<=25,i=16,r=-1,t=59153ms,q=0}[NO_TRY]
+4485 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED QueuedThreadPool[qtp509559152]@1e5f4170{STOPPED,8<=0<=25,i=16,r=-1,t=59151ms,q=0}[NO_TRY]
+4487 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED Server@c65a5ef{STOPPED}[11.0.15,sto=1000]
+4497 [main] INFO  com.max.AbstractBookingTest - Stop WireMockServer
+2062 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPED,8<=0<=25,i=0,r=-1,t=-1077646135ms,q=0}[NO_TRY] added {org.eclipse.jetty.util.thread.ThreadPoolBudget@293bb8a5,POJO}
+2080 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@5cc69cfe{STOPPED}[11.0.15,sto=0] added {QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPED,8<=0<=25,i=0,r=-1,t=-1077646160ms,q=0}[NO_TRY],AUTO}
+2091 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@5cc69cfe{STOPPED}[11.0.15,sto=0] added {AttributeContainerMap@1922e6d{size=0},AUTO}
+2159 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - HTTP2CServerConnectionFactory@4eeea57d[h2c] added {HTTP2SessionContainer@780ec4a5[size=0],POJO}
+2160 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - HTTP2CServerConnectionFactory@4eeea57d[h2c] added {HttpConfiguration@e24ddd0{32768/8192,32768/32768,https://:0,[SecureRequestCustomizer@6f70f32f]},POJO}
+2165 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - HttpConnectionFactory@67427b69[HTTP/1.1] added {HttpConfiguration@e24ddd0{32768/8192,32768/32768,https://:0,[SecureRequestCustomizer@6f70f32f]},POJO}
+2180 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@7689ddef{null, ()}{0.0.0.0:0} added {QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPED,8<=0<=25,i=0,r=-1,t=-1077646250ms,q=0}[NO_TRY],AUTO}
+2183 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@7689ddef{null, ()}{0.0.0.0:0} added {ScheduledExecutorScheduler@aa22f1c{STOPPED},AUTO}
+2199 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@5cc69cfe{STOPPED}[11.0.15,sto=0] added {LogarithmicArrayByteBufferPool@76318a7d{minBufferCapacity=0, maxBufferCapacity=65536, maxQueueLength=-1, factor=4096},POJO}
+2199 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@7689ddef{null, ()}{0.0.0.0:0} added {LogarithmicArrayByteBufferPool@76318a7d{minBufferCapacity=0, maxBufferCapacity=65536, maxQueueLength=-1, factor=4096},UNMANAGED}
+2199 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@7689ddef{null, ()}{0.0.0.0:0} added {org.eclipse.jetty.io.LogarithmicArrayByteBufferPool$LogarithmicRetainablePool@2a492f2a{min=0,max=65536,buckets=17,heap=0/-1,direct=0/-1},POJO}
+2201 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@7689ddef{null, ()}{0.0.0.0:0} added {org.eclipse.jetty.server.AbstractConnector$1@4c4d362a,POJO}
+2202 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@7689ddef{null, (http/1.1)}{0.0.0.0:0} added {HttpConnectionFactory@67427b69[HTTP/1.1],AUTO}
+2202 [main] DEBUG o.e.jetty.server.AbstractConnector - NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1)}{0.0.0.0:0} added HttpConnectionFactory@67427b69[HTTP/1.1]
+2203 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:0} added {HTTP2CServerConnectionFactory@4eeea57d[h2c],AUTO}
+2203 [main] DEBUG o.e.jetty.server.AbstractConnector - NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:0} added HTTP2CServerConnectionFactory@4eeea57d[h2c]
+2210 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:0} added {SelectorManager@NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:0},MANAGED}
+2212 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@5cc69cfe{STOPPED}[11.0.15,sto=0] added {NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080},AUTO}
+2255 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@5cc69cfe{STOPPED}[11.0.15,sto=0] added {o.e.j.s.ServletContextHandler@5af9926a{/__admin,null,STOPPED},MANAGED}
+2265 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - o.e.j.s.ServletContextHandler@5af9926a{/__admin,null,STOPPED} added {ServletHandler@285f09de{STOPPED},MANAGED}
+2283 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@285f09de{STOPPED} added {org.eclipse.jetty.servlet.DefaultServlet-65f87a2c==org.eclipse.jetty.servlet.DefaultServlet@8f22f12b{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED},AUTO}
+2286 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@285f09de{STOPPED} added {[/swagger-ui/*]=>org.eclipse.jetty.servlet.DefaultServlet-65f87a2c,POJO}
+2287 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@285f09de{STOPPED} added {org.eclipse.jetty.servlet.DefaultServlet-47747fb9==org.eclipse.jetty.servlet.DefaultServlet@d8c10325{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED},AUTO}
+2287 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@285f09de{STOPPED} added {[/recorder/*]=>org.eclipse.jetty.servlet.DefaultServlet-47747fb9,POJO}
+2289 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@285f09de{STOPPED} added {com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-4e9658b5==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@bb529a52{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED},AUTO}
+2290 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@285f09de{STOPPED} added {[/]=>com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-4e9658b5,POJO}
+2292 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@285f09de{STOPPED} added {com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-52eacb4b==com.github.tomakehurst.wiremock.servlet.NotMatchedServlet@2540bbd8{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED},AUTO}
+2293 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@285f09de{STOPPED} added {[/not-matched]=>com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-52eacb4b,POJO}
+2300 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@285f09de{STOPPED} added {org.eclipse.jetty.servlets.CrossOriginFilter-3dddbe65==org.eclipse.jetty.servlets.CrossOriginFilter@3dddbe65{inst=false,async=true,src=EMBEDDED:null},AUTO}
+2302 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@285f09de{STOPPED} added {[/*]/[]/[]=>org.eclipse.jetty.servlets.CrossOriginFilter-3dddbe65,POJO}
+2317 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@5cc69cfe{STOPPED}[11.0.15,sto=0] added {o.e.j.s.ServletContextHandler@581d969c{/,null,STOPPED},MANAGED}
+2318 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - o.e.j.s.ServletContextHandler@581d969c{/,null,STOPPED} added {ServletHandler@22db8f4{STOPPED},MANAGED}
+2319 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@22db8f4{STOPPED} added {org.eclipse.jetty.servlet.DefaultServlet-2b46a8c1==org.eclipse.jetty.servlet.DefaultServlet@e6baad76{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED},AUTO}
+2320 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@22db8f4{STOPPED} added {[/__files/*]=>org.eclipse.jetty.servlet.DefaultServlet-2b46a8c1,POJO}
+2324 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@22db8f4{STOPPED} added {com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-547e29a4==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@24db5b5{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED},AUTO}
+2325 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@22db8f4{STOPPED} added {[/]=>com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-547e29a4,POJO}
+2345 [main] DEBUG o.e.jetty.http.PreEncodedHttpField - HttpField encoders loaded: [org.eclipse.jetty.http.Http1FieldPreEncoder@512d92b, org.eclipse.jetty.http2.hpack.HpackFieldPreEncoder@62c5bbdc]
+2408 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - o.e.j.s.ServletContextHandler@581d969c{/,null,STOPPED} added {NotFoundHandler@3f3c966c{STOPPED},MANAGED}
+2409 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@22db8f4{STOPPED} added {com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-61a5b4ae==com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter@61a5b4ae{inst=false,async=true,src=EMBEDDED:null},AUTO}
+2410 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@22db8f4{STOPPED} added {[/__files/*]/[]/[]=>com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-61a5b4ae,POJO}
+2411 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@22db8f4{STOPPED} added {com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-f325091==com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter@f325091{inst=false,async=true,src=EMBEDDED:null},AUTO}
+2412 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ServletHandler@22db8f4{STOPPED} added {[/__files/*]/[]/[]=>com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-f325091,POJO}
+2428 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - HandlerCollection@64b31700{STOPPED} added {o.e.j.s.ServletContextHandler@5af9926a{/__admin,null,STOPPED},AUTO}
+2429 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - HandlerCollection@64b31700{STOPPED} added {AbstractHandler@bae47a0{STOPPED},AUTO}
+2444 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[*.svgz] (group: SUFFIX_GLOB, prefix: "null", suffix: "svgz")
+2445 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@9727ded2{*.svgz},resource=true] to PathMappings[size=1]
+2447 [main] DEBUG o.e.j.s.handler.gzip.GzipHandler - GzipHandler@7cc9ce8{STOPPED,min=32,inflate=-1} mime types IncludeExclude@2e27d72f{i=[],ip=CONTAINS,e=[image/ief, image/vnd.wap.wbmp, image/jpeg, application/bzip2, image/x-portable-graymap, application/brotli, image/bmp, image/gif, image/x-icon, image/apng, audio/midi, image/webp, video/x-msvideo, image/x-xbitmap, application/x-rar-compressed, text/event-stream, image/avif, image/x-portable-bitmap, image/x-rgb, image/x-cmu-raster, application/gzip, audio/x-wav, audio/x-pn-realaudio, audio/basic, application/compress, audio/x-aiff, video/x.ms.asx, video/x.ms.asf, image/png, video/vnd.rn-realvideo, image/x-xwindowdump, image/jpeg2000, video/x-sgi-movie, audio/mpeg, image/xcf, video/mpeg, image/x-portable-pixmap, image/tiff, image/x-portable-anymap, image/x-xpixmap, application/zip, video/quicktime, application/x-xz, video/mp4],ep=CONTAINS}
+2447 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - GzipHandler@7cc9ce8{STOPPED,min=32,inflate=-1} added {o.e.j.s.ServletContextHandler@581d969c{/,null,STOPPED},MANAGED}
+2447 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - HandlerCollection@64b31700{STOPPED} added {GzipHandler@7cc9ce8{STOPPED,min=32,inflate=-1},AUTO}
+2448 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@5cc69cfe{STOPPED}[11.0.15,sto=0] added {HandlerCollection@64b31700{STOPPED},MANAGED}
+2936 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING Server@5cc69cfe{STOPPED}[11.0.15,sto=1000]
+2937 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@5cc69cfe{STARTING}[11.0.15,sto=1000] added {ErrorHandler@47f08b81{STOPPED},AUTO}
+2940 [main] INFO  org.eclipse.jetty.server.Server - jetty-11.0.15; built: 2023-04-11T18:37:53.775Z; git: 5bc5e562c8d05c5862505aebe5cf83a61bdbcb96; jvm 21.0.2+13-58
+2962 [main] DEBUG o.e.jetty.server.AbstractConnector - Could not configure SO_REUSEPORT to false on sun.nio.ch.ServerSocketChannelImpl[unbound]
+java.lang.UnsupportedOperationException: 'SO_REUSEPORT' not supported
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.setOption(ServerSocketChannelImpl.java:219)
+	at org.eclipse.jetty.server.ServerConnector.setSocketOption(ServerConnector.java:355)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:336)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:304)
+	at org.eclipse.jetty.server.Server.lambda$doStart$0(Server.java:402)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:398)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:93)
+	at com.github.tomakehurst.wiremock.jetty.JettyHttpServer.start(JettyHttpServer.java:196)
+	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:158)
+	at com.max.AbstractBookingTest.startServer(AbstractBookingTest.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptLifecycleMethod(TimeoutExtension.java:126)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptBeforeAllMethod(TimeoutExtension.java:68)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeBeforeAllMethods$9(ClassBasedTestDescriptor.java:384)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeBeforeAllMethods(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:196)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:78)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:136)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2969 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} added {sun.nio.ch.ServerSocketChannelImpl[/[0:0:0:0:0:0:0:0]:8080],POJO}
+2969 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting Server@5cc69cfe{STARTING}[11.0.15,sto=1000]
+2969 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPED,8<=0<=25,i=0,r=-1,t=-1077647039ms,q=0}[NO_TRY]
+2983 [main] DEBUG o.e.j.u.t.ReservedThreadExecutor - ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}
+2984 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - QueuedThreadPool[qtp1870723838]@6f80fafe{STARTING,8<=0<=25,i=0,r=-1,t=-1077647053ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}] added {ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0},AUTO}
+2984 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}
+3016 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3616ms ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}
+3023 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[#25,qtp1870723838-25,5,main]
+3023 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[#26,qtp1870723838-26,5,main]
+3024 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[#27,qtp1870723838-27,5,main]
+3024 [qtp1870723838-25] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp1870723838]@6f80fafe{STARTING,8<=3<=25,i=3,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3025 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[#28,qtp1870723838-28,5,main]
+3025 [qtp1870723838-26] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp1870723838]@6f80fafe{STARTING,8<=4<=25,i=4,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3026 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[#29,qtp1870723838-29,5,main]
+3026 [qtp1870723838-28] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp1870723838]@6f80fafe{STARTING,8<=5<=25,i=5,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3026 [qtp1870723838-27] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp1870723838]@6f80fafe{STARTING,8<=5<=25,i=5,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3026 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[#30,qtp1870723838-30,5,main]
+3026 [qtp1870723838-29] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp1870723838]@6f80fafe{STARTING,8<=6<=25,i=6,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3027 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[#31,qtp1870723838-31,5,main]
+3027 [qtp1870723838-30] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp1870723838]@6f80fafe{STARTING,8<=7<=25,i=7,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3027 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[#32,qtp1870723838-32,5,main]
+3027 [qtp1870723838-31] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp1870723838]@6f80fafe{STARTING,8<=8<=25,i=8,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3028 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3628ms QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=8,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3028 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING AttributeContainerMap@1922e6d{size=0}
+3028 [qtp1870723838-32] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=8,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3028 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3628ms AttributeContainerMap@1922e6d{size=0}
+3028 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING HandlerCollection@64b31700{STOPPED}
+3028 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting HandlerCollection@64b31700{STARTING}
+3029 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING o.e.j.s.ServletContextHandler@5af9926a{/__admin,null,STOPPED}
+3030 [main] DEBUG o.e.j.util.DecoratedObjectFactory - Adding Decorator: org.eclipse.jetty.util.DeprecationWarning@3c7cfcbb
+3032 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting o.e.j.s.ServletContextHandler@5af9926a{/__admin,null,STARTING}
+3033 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ServletHandler@285f09de{STOPPED}
+3035 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/not-matched[EMBEDDED:null] mapped to servlet=com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-52eacb4b[EMBEDDED:null]
+3037 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/not-matched] (group: EXACT, prefix: "/not-matched", suffix: "null")
+3042 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@ee4519a{/not-matched},resource=MappedServlet675ffd1d{/not-matched->com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-52eacb4b==com.github.tomakehurst.wiremock.servlet.NotMatchedServlet@2540bbd8{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=1]
+3043 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/recorder/*[EMBEDDED:null] mapped to servlet=org.eclipse.jetty.servlet.DefaultServlet-47747fb9[EMBEDDED:null]
+3043 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/recorder/*] (group: PREFIX_GLOB, prefix: "/recorder", suffix: "null")
+3043 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@4ccddc4a{/recorder/*},resource=MappedServlet56303475{/recorder/*->org.eclipse.jetty.servlet.DefaultServlet-47747fb9==org.eclipse.jetty.servlet.DefaultServlet@d8c10325{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=2]
+3044 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/[EMBEDDED:null] mapped to servlet=com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-4e9658b5[EMBEDDED:null]
+3044 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@9457dcb7{/},resource=MappedServlet30506c0d{/->com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-4e9658b5==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@bb529a52{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=3]
+3044 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/swagger-ui/*[EMBEDDED:null] mapped to servlet=org.eclipse.jetty.servlet.DefaultServlet-65f87a2c[EMBEDDED:null]
+3044 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/swagger-ui/*] (group: PREFIX_GLOB, prefix: "/swagger-ui", suffix: "null")
+3045 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@fe042bf3{/swagger-ui/*},resource=MappedServlet1dcca8d3{/swagger-ui/*->org.eclipse.jetty.servlet.DefaultServlet-65f87a2c==org.eclipse.jetty.servlet.DefaultServlet@8f22f12b{jsp=null,order=-1,inst=false,async=false,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=4]
+3045 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={org.eclipse.jetty.servlets.CrossOriginFilter-3dddbe65=org.eclipse.jetty.servlets.CrossOriginFilter-3dddbe65==org.eclipse.jetty.servlets.CrossOriginFilter@3dddbe65{inst=false,async=true,src=EMBEDDED:null}} pathFilters=[[/*]/[]/[REQUEST]=>org.eclipse.jetty.servlets.CrossOriginFilter-3dddbe65] servletFilterMap={} servletPathMap=PathMappings[size=4] servletNameMap={com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-4e9658b5=MappedServlet52a70627{null->com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-4e9658b5==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@bb529a52{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}, org.eclipse.jetty.servlet.DefaultServlet-47747fb9=MappedServlet6124287a{null->org.eclipse.jetty.servlet.DefaultServlet-47747fb9==org.eclipse.jetty.servlet.DefaultServlet@d8c10325{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}, com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-52eacb4b=MappedServlet19569ebd{null->com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-52eacb4b==com.github.tomakehurst.wiremock.servlet.NotMatchedServlet@2540bbd8{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}, org.eclipse.jetty.servlet.DefaultServlet-65f87a2c=MappedServlet4632cfc{null->org.eclipse.jetty.servlet.DefaultServlet-65f87a2c==org.eclipse.jetty.servlet.DefaultServlet@8f22f12b{jsp=null,order=-1,inst=false,async=false,src=EMBEDDED:null,STOPPED}}}
+3046 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting ServletHandler@285f09de{STARTING}
+3046 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3646ms ServletHandler@285f09de{STARTED}
+3047 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING org.eclipse.jetty.servlets.CrossOriginFilter-3dddbe65==org.eclipse.jetty.servlets.CrossOriginFilter@3dddbe65{inst=false,async=true,src=EMBEDDED:null}
+3047 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3647ms org.eclipse.jetty.servlets.CrossOriginFilter-3dddbe65==org.eclipse.jetty.servlets.CrossOriginFilter@3dddbe65{inst=false,async=true,src=EMBEDDED:null}
+3051 [main] DEBUG o.e.jetty.servlet.FilterHolder - Filter.init org.eclipse.jetty.servlets.CrossOriginFilter@51dbd6e4
+3059 [main] DEBUG o.e.j.servlets.CrossOriginFilter - Cross-origin filter configuration: allowedOrigins = *, allowedTimingOrigins = null, allowedMethods = OPTIONS,GET,POST,PUT,PATCH,DELETE, allowedHeaders = *, preflightMaxAge = 1800, allowCredentials = true,exposedHeaders = ,chainPreflight = false
+3059 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-52eacb4b==com.github.tomakehurst.wiremock.servlet.NotMatchedServlet@2540bbd8{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+3061 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3661ms com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-52eacb4b==com.github.tomakehurst.wiremock.servlet.NotMatchedServlet@2540bbd8{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+3061 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-4e9658b5==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@bb529a52{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+3061 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3661ms com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-4e9658b5==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@bb529a52{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+3062 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING org.eclipse.jetty.servlet.DefaultServlet-47747fb9==org.eclipse.jetty.servlet.DefaultServlet@d8c10325{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+3062 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3662ms org.eclipse.jetty.servlet.DefaultServlet-47747fb9==org.eclipse.jetty.servlet.DefaultServlet@d8c10325{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+3062 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING org.eclipse.jetty.servlet.DefaultServlet-65f87a2c==org.eclipse.jetty.servlet.DefaultServlet@8f22f12b{jsp=null,order=-1,inst=false,async=false,src=EMBEDDED:null,STOPPED}
+3062 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3662ms org.eclipse.jetty.servlet.DefaultServlet-65f87a2c==org.eclipse.jetty.servlet.DefaultServlet@8f22f12b{jsp=null,order=-1,inst=false,async=false,src=EMBEDDED:null,STARTED}
+3063 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5af9926a{/__admin,null,AVAILABLE}
+3063 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3663ms o.e.j.s.ServletContextHandler@5af9926a{/__admin,null,AVAILABLE}
+3063 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING AbstractHandler@bae47a0{STOPPED}
+3063 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting AbstractHandler@bae47a0{STARTING}
+3063 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3663ms AbstractHandler@bae47a0{STARTED}
+3064 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING GzipHandler@7cc9ce8{STOPPED,min=32,inflate=-1}
+3066 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING InflaterPool@15cea7b0{STOPPED,size=-1,capacity=25}
+3066 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - InflaterPool@15cea7b0{STARTING,size=0,capacity=25} added {Pool@17d2ed1b[inUse=0,size=0,max=25,closed=false],POJO}
+3067 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3667ms InflaterPool@15cea7b0{STARTED,size=0,capacity=25}
+3068 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@5cc69cfe{STARTING}[11.0.15,sto=1000] added {InflaterPool@15cea7b0{STARTED,size=0,capacity=25},MANAGED}
+3068 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - GzipHandler@7cc9ce8{STARTING,min=32,inflate=-1} added {InflaterPool@15cea7b0{STARTED,size=0,capacity=25},UNMANAGED}
+3069 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING DeflaterPool@77d18d0b{STOPPED,size=-1,capacity=25}
+3070 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - DeflaterPool@77d18d0b{STARTING,size=0,capacity=25} added {Pool@7a344b65[inUse=0,size=0,max=25,closed=false],POJO}
+3070 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3670ms DeflaterPool@77d18d0b{STARTED,size=0,capacity=25}
+3070 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - Server@5cc69cfe{STARTING}[11.0.15,sto=1000] added {DeflaterPool@77d18d0b{STARTED,size=0,capacity=25},MANAGED}
+3071 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - GzipHandler@7cc9ce8{STARTING,min=32,inflate=-1} added {DeflaterPool@77d18d0b{STARTED,size=0,capacity=25},UNMANAGED}
+3071 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting GzipHandler@7cc9ce8{STARTING,min=32,inflate=-1}
+3071 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING o.e.j.s.ServletContextHandler@581d969c{/,null,STOPPED}
+3071 [main] DEBUG o.e.j.util.DecoratedObjectFactory - Adding Decorator: org.eclipse.jetty.util.DeprecationWarning@7b7b3edb
+3071 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting o.e.j.s.ServletContextHandler@581d969c{/,null,STARTING}
+3072 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ServletHandler@22db8f4{STOPPED}
+3072 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/__files/*[EMBEDDED:null] mapped to servlet=org.eclipse.jetty.servlet.DefaultServlet-2b46a8c1[EMBEDDED:null]
+3072 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/__files/*] (group: PREFIX_GLOB, prefix: "/__files", suffix: "null")
+3072 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@6b2fe10e{/__files/*},resource=MappedServlet6b474074{/__files/*->org.eclipse.jetty.servlet.DefaultServlet-2b46a8c1==org.eclipse.jetty.servlet.DefaultServlet@e6baad76{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=1]
+3073 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/[EMBEDDED:null] mapped to servlet=com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-547e29a4[EMBEDDED:null]
+3073 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@9457dcb7{/},resource=MappedServlet108531c2{/->com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-547e29a4==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@24db5b5{jsp=null,order=1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=2]
+3073 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-61a5b4ae=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-61a5b4ae==com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter@61a5b4ae{inst=false,async=true,src=EMBEDDED:null}, com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-f325091=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-f325091==com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter@f325091{inst=false,async=true,src=EMBEDDED:null}} pathFilters=[[/__files/*]/[]/[ASYNC, ERROR, REQUEST, INCLUDE, FORWARD]=>com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-f325091, [/__files/*]/[]/[FORWARD]=>com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-61a5b4ae] servletFilterMap={} servletPathMap=PathMappings[size=2] servletNameMap={com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-547e29a4=MappedServlet5b2f8ab6{null->com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-547e29a4==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@24db5b5{jsp=null,order=1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}, org.eclipse.jetty.servlet.DefaultServlet-2b46a8c1=MappedServlet5bdd5689{null->org.eclipse.jetty.servlet.DefaultServlet-2b46a8c1==org.eclipse.jetty.servlet.DefaultServlet@e6baad76{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}}
+3074 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting ServletHandler@22db8f4{STARTING}
+3074 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3674ms ServletHandler@22db8f4{STARTED}
+3074 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING NotFoundHandler@3f3c966c{STOPPED}
+3074 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting NotFoundHandler@3f3c966c{STARTING}
+3075 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3675ms NotFoundHandler@3f3c966c{STARTED}
+3075 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-61a5b4ae==com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter@61a5b4ae{inst=false,async=true,src=EMBEDDED:null}
+3075 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3675ms com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-61a5b4ae==com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter@61a5b4ae{inst=false,async=true,src=EMBEDDED:null}
+3076 [main] DEBUG o.e.jetty.servlet.FilterHolder - Filter.init com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter@73ab3aac
+3076 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-f325091==com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter@f325091{inst=false,async=true,src=EMBEDDED:null}
+3076 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3676ms com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-f325091==com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter@f325091{inst=false,async=true,src=EMBEDDED:null}
+3077 [main] DEBUG o.e.jetty.servlet.FilterHolder - Filter.init com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter@65ae095c
+3077 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING org.eclipse.jetty.servlet.DefaultServlet-2b46a8c1==org.eclipse.jetty.servlet.DefaultServlet@e6baad76{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+3077 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3677ms org.eclipse.jetty.servlet.DefaultServlet-2b46a8c1==org.eclipse.jetty.servlet.DefaultServlet@e6baad76{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+3077 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-547e29a4==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@24db5b5{jsp=null,order=1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+3078 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3678ms com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-547e29a4==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@24db5b5{jsp=null,order=1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+3095 [main] DEBUG o.e.jetty.servlet.ServletHolder - Servlet.init null for com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-547e29a4
+3096 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+3097 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@581d969c{/,null,AVAILABLE}
+3097 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3697ms o.e.j.s.ServletContextHandler@581d969c{/,null,AVAILABLE}
+3097 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3697ms GzipHandler@7cc9ce8{STARTED,min=32,inflate=-1}
+3098 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3698ms HandlerCollection@64b31700{STARTED}
+3098 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ErrorHandler@47f08b81{STOPPED}
+3098 [main] DEBUG o.e.j.s.handler.AbstractHandler - starting ErrorHandler@47f08b81{STARTING}
+3098 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3698ms ErrorHandler@47f08b81{STARTED}
+3098 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+3104 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ScheduledExecutorScheduler@aa22f1c{STOPPED}
+3107 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3707ms ScheduledExecutorScheduler@aa22f1c{STARTED}
+3107 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING HttpConnectionFactory@67427b69[HTTP/1.1]
+3108 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3708ms HttpConnectionFactory@67427b69[HTTP/1.1]
+3108 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING HTTP2CServerConnectionFactory@4eeea57d[h2c]
+3108 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3708ms HTTP2CServerConnectionFactory@4eeea57d[h2c]
+3108 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING SelectorManager@NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+3115 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - AdaptiveExecutionStrategy@773e2eb5/SelectorProducer@d8948cd/IDLE/p=false/QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=8,r=-1,t=59911ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:34:29.0466591+01:00 added {SelectorProducer@d8948cd,POJO}
+3116 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - AdaptiveExecutionStrategy@773e2eb5/SelectorProducer@d8948cd/IDLE/p=false/QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=8,r=-1,t=59911ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:34:29.0466591+01:00 added {QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=8,r=-1,t=59911ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}],UNMANAGED}
+3117 [main] DEBUG o.e.j.u.t.s.AdaptiveExecutionStrategy - AdaptiveExecutionStrategy@773e2eb5/SelectorProducer@d8948cd/IDLE/p=false/QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=8,r=-1,t=59910ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:34:29.0476631+01:00 created
+3117 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ManagedSelector@1436a7ab{STOPPED} id=0 keys=-1 selected=-1 updates=0 added {AdaptiveExecutionStrategy@773e2eb5/SelectorProducer@d8948cd/IDLE/p=false/QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=8,r=-1,t=59909ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:34:29.0476631+01:00,MANAGED}
+3118 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - SelectorManager@NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} added {ManagedSelector@1436a7ab{STOPPED} id=0 keys=-1 selected=-1 updates=0,AUTO}
+3119 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - AdaptiveExecutionStrategy@3b7b05a8/SelectorProducer@3d36dff4/IDLE/p=false/QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=8,r=-1,t=59908ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:34:29.0496615+01:00 added {SelectorProducer@3d36dff4,POJO}
+3120 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - AdaptiveExecutionStrategy@3b7b05a8/SelectorProducer@3d36dff4/IDLE/p=false/QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=8,r=-1,t=59907ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:34:29.0506614+01:00 added {QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=8,r=-1,t=59907ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}],UNMANAGED}
+3120 [main] DEBUG o.e.j.u.t.s.AdaptiveExecutionStrategy - AdaptiveExecutionStrategy@3b7b05a8/SelectorProducer@3d36dff4/IDLE/p=false/QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=8,r=-1,t=59906ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:34:29.0517382+01:00 created
+3121 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - ManagedSelector@7abe27bf{STOPPED} id=1 keys=-1 selected=-1 updates=0 added {AdaptiveExecutionStrategy@3b7b05a8/SelectorProducer@3d36dff4/IDLE/p=false/QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=8,r=-1,t=59906ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:34:29.0517382+01:00,MANAGED}
+3121 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - SelectorManager@NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} added {ManagedSelector@7abe27bf{STOPPED} id=1 keys=-1 selected=-1 updates=0,AUTO}
+3122 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ManagedSelector@1436a7ab{STOPPED} id=0 keys=-1 selected=-1 updates=0
+3122 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING AdaptiveExecutionStrategy@773e2eb5/SelectorProducer@d8948cd/IDLE/p=false/QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=8,r=-1,t=59905ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:34:29.0526566+01:00
+3123 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3722ms AdaptiveExecutionStrategy@773e2eb5/SelectorProducer@d8948cd/IDLE/p=false/QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=8,r=-1,t=59904ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:34:29.0536589+01:00
+3172 [qtp1870723838-26] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.io.ManagedSelector$$Lambda/0x00000235a62c9200@63ae64a9 in QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=7,r=-1,t=59855ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3173 [qtp1870723838-26] DEBUG o.e.j.u.t.s.AdaptiveExecutionStrategy - AdaptiveExecutionStrategy@773e2eb5/SelectorProducer@d8948cd/IDLE/p=false/QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=7,r=-1,t=59854ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:34:29.1042092+01:00 tryProduce false
+3181 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 0
+3183 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+3184 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@4a878d5b waiting with 0 keys
+3174 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - queue org.eclipse.jetty.io.ManagedSelector$$Lambda/0x00000235a62c9200@63ae64a9 startThread=0
+3194 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$Start@5e8604bf on ManagedSelector@1436a7ab{STARTING} id=0 keys=0 selected=0 updates=0
+3197 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Wakeup on submit ManagedSelector@1436a7ab{STARTING} id=0 keys=0 selected=0 updates=1
+3211 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@4a878d5b woken with none selected
+3212 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@4a878d5b woken up from select, 0/0/0 selected
+3213 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@4a878d5b processing 0 keys, 1 updates
+3214 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 1
+3214 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$Start@5e8604bf
+3215 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+3215 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@4a878d5b waiting with 0 keys
+3215 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3815ms ManagedSelector@1436a7ab{STARTED} id=0 keys=0 selected=0 updates=0
+3216 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ManagedSelector@7abe27bf{STOPPED} id=1 keys=-1 selected=-1 updates=0
+3219 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING AdaptiveExecutionStrategy@3b7b05a8/SelectorProducer@3d36dff4/IDLE/p=false/QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=7,r=-1,t=59808ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:34:29.1491967+01:00
+3220 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3819ms AdaptiveExecutionStrategy@3b7b05a8/SelectorProducer@3d36dff4/IDLE/p=false/QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=7,r=-1,t=59807ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:34:29.1512031+01:00
+3238 [qtp1870723838-25] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.io.ManagedSelector$$Lambda/0x00000235a62c9200@54abb8d9 in QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=6,r=-1,t=59790ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3238 [qtp1870723838-25] DEBUG o.e.j.u.t.s.AdaptiveExecutionStrategy - AdaptiveExecutionStrategy@3b7b05a8/SelectorProducer@3d36dff4/IDLE/p=false/QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=6,r=-1,t=59789ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:34:29.1681992+01:00 tryProduce false
+3239 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 0
+3239 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+3240 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@5a6c5c3c waiting with 0 keys
+3238 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - queue org.eclipse.jetty.io.ManagedSelector$$Lambda/0x00000235a62c9200@54abb8d9 startThread=0
+3240 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$Start@20095ab4 on ManagedSelector@7abe27bf{STARTING} id=1 keys=0 selected=0 updates=0
+3245 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Wakeup on submit ManagedSelector@7abe27bf{STARTING} id=1 keys=0 selected=0 updates=1
+3246 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@5a6c5c3c woken with none selected
+3246 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@5a6c5c3c woken up from select, 0/0/0 selected
+3246 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@5a6c5c3c processing 0 keys, 1 updates
+3246 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 1
+3246 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$Start@20095ab4
+3246 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+3246 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@5a6c5c3c waiting with 0 keys
+3247 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3846ms ManagedSelector@7abe27bf{STARTED} id=1 keys=0 selected=0 updates=0
+3248 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3848ms SelectorManager@NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+3251 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} added {acceptor-0@66c83fc8,POJO}
+3253 [qtp1870723838-28] DEBUG o.e.j.util.thread.QueuedThreadPool - run acceptor-0@66c83fc8 in QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=5,r=-1,t=59775ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3253 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - queue acceptor-0@66c83fc8 startThread=0
+3253 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} added {acceptor-1@546621c4,POJO}
+3254 [qtp1870723838-27] DEBUG o.e.j.util.thread.QueuedThreadPool - run acceptor-1@546621c4 in QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=4,r=-1,t=59774ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3254 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - queue acceptor-1@546621c4 startThread=0
+3254 [main] DEBUG o.e.j.u.c.ContainerLifeCycle - NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} added {acceptor-2@621f89b8,POJO}
+3254 [qtp1870723838-29] DEBUG o.e.j.util.thread.QueuedThreadPool - run acceptor-2@621f89b8 in QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=3,r=-1,t=59773ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3254 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - queue acceptor-2@621f89b8 startThread=0
+3255 [main] INFO  o.e.jetty.server.AbstractConnector - Started NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+3256 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3855ms NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+3256 [main] INFO  org.eclipse.jetty.server.Server - Started Server@5cc69cfe{STARTING}[11.0.15,sto=1000] @3856ms
+3256 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @3856ms Server@5cc69cfe{STARTED}[11.0.15,sto=1000]
+3281 [main] INFO  com.max.AbstractBookingTest - Start WireMockServer on port 8080
+3304 [main] INFO  com.max.NegativeBookingTest - Running negative booking test
+3323 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING Server@5cc69cfe{STARTED}[11.0.15,sto=1000]
+3324 [main] INFO  org.eclipse.jetty.server.Server - Stopped Server@5cc69cfe{STOPPING}[11.0.15,sto=1000]
+3324 [main] DEBUG org.eclipse.jetty.server.Server - doStop Server@5cc69cfe{STOPPING}[11.0.15,sto=1000]
+3324 [main] INFO  org.eclipse.jetty.server.Server - Shutdown Server@5cc69cfe{STOPPING}[11.0.15,sto=1000]
+3325 [main] DEBUG org.eclipse.jetty.server.Server - graceful o.e.j.s.ServletContextHandler@581d969c{/,null,AVAILABLE}
+3326 [main] DEBUG org.eclipse.jetty.server.Server - graceful o.e.j.s.ServletContextHandler@5af9926a{/__admin,null,AVAILABLE}
+3326 [main] DEBUG org.eclipse.jetty.server.Server - graceful NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+3326 [main] DEBUG org.eclipse.jetty.server.Server - graceful HTTP2SessionContainer@780ec4a5[size=0]
+3330 [qtp1870723838-28] DEBUG o.e.j.util.thread.QueuedThreadPool - ran qtp1870723838-28-acceptor-0@66c83fc8-NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} in QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=3,r=-1,t=59697ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3330 [qtp1870723838-29] DEBUG o.e.j.util.thread.QueuedThreadPool - ran qtp1870723838-29-acceptor-2@621f89b8-NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} in QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=3,r=-1,t=59697ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3330 [qtp1870723838-27] DEBUG o.e.j.util.thread.QueuedThreadPool - ran qtp1870723838-27-acceptor-1@546621c4-NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080} in QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=3,r=-1,t=59697ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3331 [qtp1870723838-28] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=5,r=-1,t=59697ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3331 [qtp1870723838-27] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=6,r=-1,t=59696ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3331 [qtp1870723838-29] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=5,r=-1,t=59697ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3332 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+3333 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING SelectorManager@NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+3333 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING ManagedSelector@7abe27bf{STARTED} id=1 keys=0 selected=0 updates=0
+3334 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$CloseConnections@25b5c5e3 on ManagedSelector@7abe27bf{STOPPING} id=1 keys=0 selected=0 updates=0
+3335 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Wakeup on submit ManagedSelector@7abe27bf{STOPPING} id=1 keys=0 selected=0 updates=1
+3335 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@5a6c5c3c woken with none selected
+3335 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@5a6c5c3c woken up from select, 0/0/0 selected
+3335 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@5a6c5c3c processing 0 keys, 1 updates
+3335 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 1
+3335 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$CloseConnections@25b5c5e3
+3336 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Closing 0 connections on ManagedSelector@7abe27bf{STOPPING} id=1 keys=0 selected=0 updates=0
+3336 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+3336 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@5a6c5c3c waiting with 0 keys
+3337 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$StopSelector@7d37f1c on ManagedSelector@7abe27bf{STOPPING} id=1 keys=0 selected=0 updates=0
+3337 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Wakeup on submit ManagedSelector@7abe27bf{STOPPING} id=1 keys=0 selected=0 updates=1
+3337 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@5a6c5c3c woken with none selected
+3337 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@5a6c5c3c woken up from select, 0/0/0 selected
+3338 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@5a6c5c3c processing 0 keys, 1 updates
+3338 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 1
+3338 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$StopSelector@7d37f1c
+3343 [qtp1870723838-25] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+3343 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING AdaptiveExecutionStrategy@3b7b05a8/SelectorProducer@3d36dff4/PRODUCING/p=false/QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=6,r=-1,t=59684ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:34:29.2732965+01:00
+3344 [qtp1870723838-25] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.io.ManagedSelector$$Lambda/0x00000235a62c9200@54abb8d9 in QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=6,r=-1,t=59684ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3344 [qtp1870723838-25] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=7,r=-1,t=59683ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3344 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED AdaptiveExecutionStrategy@3b7b05a8/SelectorProducer@3d36dff4/IDLE/p=false/QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=6,r=-1,t=59684ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:34:29.2742915+01:00
+3344 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED ManagedSelector@7abe27bf{STOPPED} id=1 keys=-1 selected=-1 updates=0
+3344 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING ManagedSelector@1436a7ab{STARTED} id=0 keys=0 selected=0 updates=0
+3344 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$CloseConnections@69d6a7cd on ManagedSelector@1436a7ab{STOPPING} id=0 keys=0 selected=0 updates=0
+3344 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Wakeup on submit ManagedSelector@1436a7ab{STOPPING} id=0 keys=0 selected=0 updates=1
+3344 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@4a878d5b woken with none selected
+3345 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@4a878d5b woken up from select, 0/0/0 selected
+3345 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@4a878d5b processing 0 keys, 1 updates
+3345 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 1
+3345 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$CloseConnections@69d6a7cd
+3345 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Closing 0 connections on ManagedSelector@1436a7ab{STOPPING} id=0 keys=0 selected=0 updates=0
+3345 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+3345 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@4a878d5b waiting with 0 keys
+3345 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$StopSelector@3162743f on ManagedSelector@1436a7ab{STOPPING} id=0 keys=0 selected=0 updates=0
+3346 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Wakeup on submit ManagedSelector@1436a7ab{STOPPING} id=0 keys=0 selected=0 updates=1
+3346 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@4a878d5b woken with none selected
+3346 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@4a878d5b woken up from select, 0/0/0 selected
+3346 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@4a878d5b processing 0 keys, 1 updates
+3346 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 1
+3346 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$StopSelector@3162743f
+3347 [qtp1870723838-26] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+3347 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING AdaptiveExecutionStrategy@773e2eb5/SelectorProducer@d8948cd/PRODUCING/p=false/QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=7,r=-1,t=59680ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:34:29.2772957+01:00
+3347 [qtp1870723838-26] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.io.ManagedSelector$$Lambda/0x00000235a62c9200@63ae64a9 in QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=7,r=-1,t=59680ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3348 [qtp1870723838-26] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=8,r=-1,t=59679ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3348 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED AdaptiveExecutionStrategy@773e2eb5/SelectorProducer@d8948cd/IDLE/p=false/QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=8,r=-1,t=59679ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}][pc=0,pic=0,pec=0,epc=0]@2024-02-10T02:34:29.2782982+01:00
+3348 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED ManagedSelector@1436a7ab{STOPPED} id=0 keys=-1 selected=-1 updates=0
+3348 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED SelectorManager@NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+3349 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING HTTP2CServerConnectionFactory@4eeea57d[h2c]
+3349 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED HTTP2CServerConnectionFactory@4eeea57d[h2c]
+3349 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING HttpConnectionFactory@67427b69[HTTP/1.1]
+3349 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED HttpConnectionFactory@67427b69[HTTP/1.1]
+3349 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING ScheduledExecutorScheduler@aa22f1c{STARTED}
+3349 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED ScheduledExecutorScheduler@aa22f1c{STOPPED}
+3350 [main] INFO  o.e.jetty.server.AbstractConnector - Stopped NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+3350 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED NetworkTrafficServerConnector@7689ddef{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
+3351 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping Server@5cc69cfe{STOPPING}[11.0.15,sto=1000]
+3351 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING DeflaterPool@77d18d0b{STARTED,size=0,capacity=25}
+3351 [main] DEBUG org.eclipse.jetty.util.Pool - Closing Pool@7a344b65[inUse=0,size=0,max=25,closed=false]
+3352 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED DeflaterPool@77d18d0b{STOPPED,size=-1,capacity=25}
+3352 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING InflaterPool@15cea7b0{STARTED,size=0,capacity=25}
+3352 [main] DEBUG org.eclipse.jetty.util.Pool - Closing Pool@17d2ed1b[inUse=0,size=0,max=25,closed=false]
+3352 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED InflaterPool@15cea7b0{STOPPED,size=-1,capacity=25}
+3352 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING ErrorHandler@47f08b81{STARTED}
+3352 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping ErrorHandler@47f08b81{STOPPING}
+3353 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED ErrorHandler@47f08b81{STOPPED}
+3353 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING HandlerCollection@64b31700{STARTED}
+3353 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping HandlerCollection@64b31700{STOPPING}
+3353 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING GzipHandler@7cc9ce8{STARTED,min=32,inflate=-1}
+3353 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping GzipHandler@7cc9ce8{STOPPING,min=32,inflate=-1}
+3353 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING o.e.j.s.ServletContextHandler@581d969c{/,null,SHUTDOWN}
+3353 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping o.e.j.s.ServletContextHandler@581d969c{/,null,STOPPED}
+3354 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING NotFoundHandler@3f3c966c{STARTED}
+3354 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping NotFoundHandler@3f3c966c{STOPPING}
+3354 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED NotFoundHandler@3f3c966c{STOPPED}
+3354 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING ServletHandler@22db8f4{STARTED}
+3354 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping ServletHandler@22db8f4{STOPPING}
+3354 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-f325091==com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter@f325091{inst=true,async=true,src=EMBEDDED:null}
+3355 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-f325091==com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter@f325091{inst=false,async=true,src=EMBEDDED:null}
+3356 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-61a5b4ae==com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter@61a5b4ae{inst=true,async=true,src=EMBEDDED:null}
+3357 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-61a5b4ae==com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter@61a5b4ae{inst=false,async=true,src=EMBEDDED:null}
+3357 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-547e29a4==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@24db5b5{jsp=null,order=1,inst=true,async=true,src=EMBEDDED:null,STARTED}
+3357 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-547e29a4==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@24db5b5{jsp=null,order=1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+3357 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING org.eclipse.jetty.servlet.DefaultServlet-2b46a8c1==org.eclipse.jetty.servlet.DefaultServlet@e6baad76{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+3358 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED org.eclipse.jetty.servlet.DefaultServlet-2b46a8c1==org.eclipse.jetty.servlet.DefaultServlet@e6baad76{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+3360 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/__files/*[EMBEDDED:null] mapped to servlet=org.eclipse.jetty.servlet.DefaultServlet-2b46a8c1[EMBEDDED:null]
+3361 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/__files/*] (group: PREFIX_GLOB, prefix: "/__files", suffix: "null")
+3361 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@6b2fe10e{/__files/*},resource=MappedServlet6f0cb5a1{/__files/*->org.eclipse.jetty.servlet.DefaultServlet-2b46a8c1==org.eclipse.jetty.servlet.DefaultServlet@e6baad76{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=1]
+3361 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/[EMBEDDED:null] mapped to servlet=com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-547e29a4[EMBEDDED:null]
+3361 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@9457dcb7{/},resource=MappedServlet1b29d52b{/->com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-547e29a4==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@24db5b5{jsp=null,order=1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=2]
+3362 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-61a5b4ae=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-61a5b4ae==com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter@61a5b4ae{inst=false,async=true,src=EMBEDDED:null}, com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-f325091=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-f325091==com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter@f325091{inst=false,async=true,src=EMBEDDED:null}} pathFilters=[[/__files/*]/[]/[ASYNC, ERROR, REQUEST, INCLUDE, FORWARD]=>com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-f325091, [/__files/*]/[]/[FORWARD]=>com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-61a5b4ae] servletFilterMap={} servletPathMap=PathMappings[size=2] servletNameMap={com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-547e29a4=MappedServlet47547132{null->com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-547e29a4==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@24db5b5{jsp=null,order=1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}, org.eclipse.jetty.servlet.DefaultServlet-2b46a8c1=MappedServlet655523dd{null->org.eclipse.jetty.servlet.DefaultServlet-2b46a8c1==org.eclipse.jetty.servlet.DefaultServlet@e6baad76{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}}
+3363 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED ServletHandler@22db8f4{STOPPED}
+3363 [main] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@581d969c{/,null,STOPPED}
+3364 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED o.e.j.s.ServletContextHandler@581d969c{/,null,STOPPED}
+3364 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED GzipHandler@7cc9ce8{STOPPED,min=32,inflate=-1}
+3364 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING AbstractHandler@bae47a0{STARTED}
+3364 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping AbstractHandler@bae47a0{STOPPING}
+3364 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED AbstractHandler@bae47a0{STOPPED}
+3364 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING o.e.j.s.ServletContextHandler@5af9926a{/__admin,null,SHUTDOWN}
+3364 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping o.e.j.s.ServletContextHandler@5af9926a{/__admin,null,STOPPED}
+3364 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING ServletHandler@285f09de{STARTED}
+3364 [main] DEBUG o.e.j.s.handler.AbstractHandler - stopping ServletHandler@285f09de{STOPPING}
+3364 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING org.eclipse.jetty.servlets.CrossOriginFilter-3dddbe65==org.eclipse.jetty.servlets.CrossOriginFilter@3dddbe65{inst=true,async=true,src=EMBEDDED:null}
+3365 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED org.eclipse.jetty.servlets.CrossOriginFilter-3dddbe65==org.eclipse.jetty.servlets.CrossOriginFilter@3dddbe65{inst=false,async=true,src=EMBEDDED:null}
+3365 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-52eacb4b==com.github.tomakehurst.wiremock.servlet.NotMatchedServlet@2540bbd8{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+3365 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-52eacb4b==com.github.tomakehurst.wiremock.servlet.NotMatchedServlet@2540bbd8{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+3365 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-4e9658b5==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@bb529a52{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+3365 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-4e9658b5==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@bb529a52{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+3365 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING org.eclipse.jetty.servlet.DefaultServlet-47747fb9==org.eclipse.jetty.servlet.DefaultServlet@d8c10325{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+3366 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED org.eclipse.jetty.servlet.DefaultServlet-47747fb9==org.eclipse.jetty.servlet.DefaultServlet@d8c10325{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+3366 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING org.eclipse.jetty.servlet.DefaultServlet-65f87a2c==org.eclipse.jetty.servlet.DefaultServlet@8f22f12b{jsp=null,order=-1,inst=false,async=false,src=EMBEDDED:null,STARTED}
+3366 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED org.eclipse.jetty.servlet.DefaultServlet-65f87a2c==org.eclipse.jetty.servlet.DefaultServlet@8f22f12b{jsp=null,order=-1,inst=false,async=false,src=EMBEDDED:null,STOPPED}
+3366 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/not-matched[EMBEDDED:null] mapped to servlet=com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-52eacb4b[EMBEDDED:null]
+3366 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/not-matched] (group: EXACT, prefix: "/not-matched", suffix: "null")
+3366 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@ee4519a{/not-matched},resource=MappedServletc6e0f32{/not-matched->com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-52eacb4b==com.github.tomakehurst.wiremock.servlet.NotMatchedServlet@2540bbd8{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=1]
+3367 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/recorder/*[EMBEDDED:null] mapped to servlet=org.eclipse.jetty.servlet.DefaultServlet-47747fb9[EMBEDDED:null]
+3367 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/recorder/*] (group: PREFIX_GLOB, prefix: "/recorder", suffix: "null")
+3367 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@4ccddc4a{/recorder/*},resource=MappedServlet6f3f0fae{/recorder/*->org.eclipse.jetty.servlet.DefaultServlet-47747fb9==org.eclipse.jetty.servlet.DefaultServlet@d8c10325{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=2]
+3367 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/[EMBEDDED:null] mapped to servlet=com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-4e9658b5[EMBEDDED:null]
+3367 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@9457dcb7{/},resource=MappedServlet21a66d45{/->com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-4e9658b5==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@bb529a52{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=3]
+3367 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/swagger-ui/*[EMBEDDED:null] mapped to servlet=org.eclipse.jetty.servlet.DefaultServlet-65f87a2c[EMBEDDED:null]
+3368 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/swagger-ui/*] (group: PREFIX_GLOB, prefix: "/swagger-ui", suffix: "null")
+3368 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@fe042bf3{/swagger-ui/*},resource=MappedServlet1f966492{/swagger-ui/*->org.eclipse.jetty.servlet.DefaultServlet-65f87a2c==org.eclipse.jetty.servlet.DefaultServlet@8f22f12b{jsp=null,order=-1,inst=false,async=false,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=4]
+3368 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={org.eclipse.jetty.servlets.CrossOriginFilter-3dddbe65=org.eclipse.jetty.servlets.CrossOriginFilter-3dddbe65==org.eclipse.jetty.servlets.CrossOriginFilter@3dddbe65{inst=false,async=true,src=EMBEDDED:null}} pathFilters=[[/*]/[]/[REQUEST]=>org.eclipse.jetty.servlets.CrossOriginFilter-3dddbe65] servletFilterMap={} servletPathMap=PathMappings[size=4] servletNameMap={com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-4e9658b5=MappedServlet63fdffcd{null->com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet-4e9658b5==com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet@bb529a52{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}, org.eclipse.jetty.servlet.DefaultServlet-47747fb9=MappedServlet7428de63{null->org.eclipse.jetty.servlet.DefaultServlet-47747fb9==org.eclipse.jetty.servlet.DefaultServlet@d8c10325{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}, com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-52eacb4b=MappedServlet66f659e6{null->com.github.tomakehurst.wiremock.servlet.NotMatchedServlet-52eacb4b==com.github.tomakehurst.wiremock.servlet.NotMatchedServlet@2540bbd8{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}, org.eclipse.jetty.servlet.DefaultServlet-65f87a2c=MappedServlet4a68135e{null->org.eclipse.jetty.servlet.DefaultServlet-65f87a2c==org.eclipse.jetty.servlet.DefaultServlet@8f22f12b{jsp=null,order=-1,inst=false,async=false,src=EMBEDDED:null,STOPPED}}}
+3368 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED ServletHandler@285f09de{STOPPED}
+3368 [main] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5af9926a{/__admin,null,STOPPED}
+3369 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED o.e.j.s.ServletContextHandler@5af9926a{/__admin,null,STOPPED}
+3369 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED HandlerCollection@64b31700{STOPPED}
+3369 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING AttributeContainerMap@1922e6d{size=0}
+3369 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED AttributeContainerMap@1922e6d{size=0}
+3369 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING QueuedThreadPool[qtp1870723838]@6f80fafe{STARTED,8<=8<=25,i=8,r=-1,t=59658ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3369 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Stopping QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=8<=25,i=8,r=-1,t=59658ms,q=0}[ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}]
+3370 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPING ReservedThreadExecutor@1a5f7e7c{reserved=0/2,pending=0}
+3372 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED ReservedThreadExecutor@1a5f7e7c{reserved=-1/2,pending=0}
+3372 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Waiting for Thread[#30,qtp1870723838-30,5,main] for 499
+3372 [qtp1870723838-30] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x00000235a62109b8@7a9fc97d in QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=8,r=-1,t=59655ms,q=0}[NO_TRY]
+3372 [qtp1870723838-31] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x00000235a62109b8@7a9fc97d in QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=8,r=-1,t=59655ms,q=0}[NO_TRY]
+3373 [qtp1870723838-27] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x00000235a62109b8@7a9fc97d in QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=8,r=-1,t=59654ms,q=0}[NO_TRY]
+3373 [qtp1870723838-30] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x00000235a62109b8@7a9fc97d in QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=8,r=-1,t=59654ms,q=0}[NO_TRY]
+3373 [qtp1870723838-27] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x00000235a62109b8@7a9fc97d in QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=8,r=-1,t=59654ms,q=0}[NO_TRY]
+3373 [qtp1870723838-27] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=10,r=-1,t=59654ms,q=0}[NO_TRY]
+3373 [qtp1870723838-29] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x00000235a62109b8@7a9fc97d in QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=10,r=-1,t=59654ms,q=0}[NO_TRY]
+3373 [qtp1870723838-32] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x00000235a62109b8@7a9fc97d in QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=8,r=-1,t=59654ms,q=0}[NO_TRY]
+3373 [qtp1870723838-29] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x00000235a62109b8@7a9fc97d in QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=10,r=-1,t=59654ms,q=0}[NO_TRY]
+3374 [qtp1870723838-32] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x00000235a62109b8@7a9fc97d in QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=10,r=-1,t=59654ms,q=0}[NO_TRY]
+3374 [qtp1870723838-32] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=12,r=-1,t=59653ms,q=0}[NO_TRY]
+3374 [qtp1870723838-26] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x00000235a62109b8@7a9fc97d in QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=12,r=-1,t=59653ms,q=0}[NO_TRY]
+3373 [qtp1870723838-28] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x00000235a62109b8@7a9fc97d in QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=8,r=-1,t=59654ms,q=0}[NO_TRY]
+3374 [qtp1870723838-26] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x00000235a62109b8@7a9fc97d in QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=12,r=-1,t=59653ms,q=0}[NO_TRY]
+3374 [qtp1870723838-28] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x00000235a62109b8@7a9fc97d in QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=12,r=-1,t=59653ms,q=0}[NO_TRY]
+3373 [qtp1870723838-30] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=9,r=-1,t=59654ms,q=0}[NO_TRY]
+3373 [qtp1870723838-27] DEBUG o.e.j.util.thread.QueuedThreadPool - Thread[#27,qtp1870723838-27,5,main] exited for QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=10,r=-1,t=59654ms,q=0}[NO_TRY]
+3373 [qtp1870723838-31] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x00000235a62109b8@7a9fc97d in QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=8,r=-1,t=59654ms,q=0}[NO_TRY]
+3374 [qtp1870723838-29] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=11,r=-1,t=59654ms,q=0}[NO_TRY]
+3376 [qtp1870723838-31] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=15,r=-1,t=59651ms,q=0}[NO_TRY]
+3374 [qtp1870723838-25] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x00000235a62109b8@7a9fc97d in QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=11,r=-1,t=59653ms,q=0}[NO_TRY]
+3374 [qtp1870723838-32] DEBUG o.e.j.util.thread.QueuedThreadPool - Thread[#32,qtp1870723838-32,5,main] exited for QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=12,r=-1,t=59653ms,q=0}[NO_TRY]
+3375 [qtp1870723838-26] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=13,r=-1,t=59653ms,q=0}[NO_TRY]
+3377 [qtp1870723838-31] DEBUG o.e.j.util.thread.QueuedThreadPool - Thread[#31,qtp1870723838-31,5,main] exited for QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=15,r=-1,t=59651ms,q=0}[NO_TRY]
+3375 [qtp1870723838-28] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=14,r=-1,t=59653ms,q=0}[NO_TRY]
+3378 [qtp1870723838-28] DEBUG o.e.j.util.thread.QueuedThreadPool - Thread[#28,qtp1870723838-28,5,main] exited for QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=15,r=-1,t=59649ms,q=0}[NO_TRY]
+3377 [qtp1870723838-26] DEBUG o.e.j.util.thread.QueuedThreadPool - Thread[#26,qtp1870723838-26,5,main] exited for QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=15,r=-1,t=59650ms,q=0}[NO_TRY]
+3376 [qtp1870723838-29] DEBUG o.e.j.util.thread.QueuedThreadPool - Thread[#29,qtp1870723838-29,5,main] exited for QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=15,r=-1,t=59651ms,q=0}[NO_TRY]
+3375 [qtp1870723838-30] DEBUG o.e.j.util.thread.QueuedThreadPool - Thread[#30,qtp1870723838-30,5,main] exited for QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=14,r=-1,t=59652ms,q=0}[NO_TRY]
+3377 [qtp1870723838-25] DEBUG o.e.j.util.thread.QueuedThreadPool - ran org.eclipse.jetty.util.thread.QueuedThreadPool$$Lambda/0x00000235a62109b8@7a9fc97d in QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=15,r=-1,t=59650ms,q=0}[NO_TRY]
+3379 [qtp1870723838-25] DEBUG o.e.j.util.thread.QueuedThreadPool - Evict skipped, no excess threads QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=16,r=-1,t=59648ms,q=0}[NO_TRY]
+3380 [qtp1870723838-25] DEBUG o.e.j.util.thread.QueuedThreadPool - Thread[#25,qtp1870723838-25,5,main] exited for QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPING,8<=0<=25,i=16,r=-1,t=59648ms,q=0}[NO_TRY]
+3380 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - Waiting for Thread[#32,qtp1870723838-32,5,] for 492
+3381 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED QueuedThreadPool[qtp1870723838]@6f80fafe{STOPPED,8<=0<=25,i=16,r=-1,t=59646ms,q=0}[NO_TRY]
+3381 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STOPPED Server@5cc69cfe{STOPPED}[11.0.15,sto=1000]
+3382 [main] INFO  com.max.AbstractBookingTest - Stop WireMockServer
